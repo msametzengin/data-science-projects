@@ -1,0 +1,3344 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_6c7f9619b3919adc662189c975b77287 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_6c7f9619b3919adc662189c975b77287" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_6c7f9619b3919adc662189c975b77287 = L.map(
+                "map_6c7f9619b3919adc662189c975b77287",
+                {
+                    center: [39.0, 35.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 6,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_390d5e3bc1c8db58d7373f214c3429af = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_390d5e3bc1c8db58d7373f214c3429af.addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+            var circle_marker_e83f674d22371f6885282daaec92a1a5 = L.circleMarker(
+                [41.1333, 34.9572],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.8, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_f0dd7790175ef5fd40ccd8487d8ec30d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_108623408eaee4249e74812ad03f0bc0 = $(`<div id="html_108623408eaee4249e74812ad03f0bc0" style="width: 100.0%; height: 100.0%;">21 km NE of Osmancık, Turkey<br>Mag:3.9<br>Depth:10.0 km</div>`)[0];
+                popup_f0dd7790175ef5fd40ccd8487d8ec30d.setContent(html_108623408eaee4249e74812ad03f0bc0);
+            
+        
+
+        circle_marker_e83f674d22371f6885282daaec92a1a5.bindPopup(popup_f0dd7790175ef5fd40ccd8487d8ec30d)
+        ;
+
+        
+    
+    
+            var circle_marker_af921bb906a7ac57bd047c42704575bc = L.circleMarker(
+                [39.7124, 38.7837],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.6, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_cf8ff3d99680e95f85a43f6caff26484 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a34dcad8aa9d3bdf7507f6cd794ad234 = $(`<div id="html_a34dcad8aa9d3bdf7507f6cd794ad234" style="width: 100.0%; height: 100.0%;">20 km S of Refahiye, Turkey<br>Mag:4.8<br>Depth:10.0 km</div>`)[0];
+                popup_cf8ff3d99680e95f85a43f6caff26484.setContent(html_a34dcad8aa9d3bdf7507f6cd794ad234);
+            
+        
+
+        circle_marker_af921bb906a7ac57bd047c42704575bc.bindPopup(popup_cf8ff3d99680e95f85a43f6caff26484)
+        ;
+
+        
+    
+    
+            var circle_marker_caea0940ce3fe084f09a9cc2fc389bd6 = L.circleMarker(
+                [39.1483, 28.2507],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.8, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_6533ddfe57255dd9b4b377920bb57375 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_407697ff5c86e005626ec1c81d8cf650 = $(`<div id="html_407697ff5c86e005626ec1c81d8cf650" style="width: 100.0%; height: 100.0%;">12 km SSE of Sındırgı, Turkey<br>Mag:4.4<br>Depth:23.322 km</div>`)[0];
+                popup_6533ddfe57255dd9b4b377920bb57375.setContent(html_407697ff5c86e005626ec1c81d8cf650);
+            
+        
+
+        circle_marker_caea0940ce3fe084f09a9cc2fc389bd6.bindPopup(popup_6533ddfe57255dd9b4b377920bb57375)
+        ;
+
+        
+    
+    
+            var circle_marker_563e773ea68732a381d50bfca14c6570 = L.circleMarker(
+                [39.1558, 28.13],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.2, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_f12d1dd55ccfa6576bbb2d8b87cab94d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3a7f0597f8147b217bb3bc0884c9427f = $(`<div id="html_3a7f0597f8147b217bb3bc0884c9427f" style="width: 100.0%; height: 100.0%;">10 km SSW of Sındırgı, Turkey<br>Mag:4.1<br>Depth:10.0 km</div>`)[0];
+                popup_f12d1dd55ccfa6576bbb2d8b87cab94d.setContent(html_3a7f0597f8147b217bb3bc0884c9427f);
+            
+        
+
+        circle_marker_563e773ea68732a381d50bfca14c6570.bindPopup(popup_f12d1dd55ccfa6576bbb2d8b87cab94d)
+        ;
+
+        
+    
+    
+            var circle_marker_57aa49e3ada2d911a393dd791262e914 = L.circleMarker(
+                [39.193, 28.2902],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.8, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_d793ffcc94dd6a6069aad4e1682ece5b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d39a7beda09b431804bd7e707ad6d34d = $(`<div id="html_d39a7beda09b431804bd7e707ad6d34d" style="width: 100.0%; height: 100.0%;">11 km ESE of Sındırgı, Turkey<br>Mag:4.9<br>Depth:8.973 km</div>`)[0];
+                popup_d793ffcc94dd6a6069aad4e1682ece5b.setContent(html_d39a7beda09b431804bd7e707ad6d34d);
+            
+        
+
+        circle_marker_57aa49e3ada2d911a393dd791262e914.bindPopup(popup_d793ffcc94dd6a6069aad4e1682ece5b)
+        ;
+
+        
+    
+    
+            var circle_marker_c192de044b9033028a5017bf84e04e5a = L.circleMarker(
+                [39.1329, 28.2902],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.2, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_e3a4b727ed3edffb20b33836ef350564 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6170ac77635552954d77ec6e3a0e1601 = $(`<div id="html_6170ac77635552954d77ec6e3a0e1601" style="width: 100.0%; height: 100.0%;">15 km SE of Sındırgı, Turkey<br>Mag:4.1<br>Depth:10.0 km</div>`)[0];
+                popup_e3a4b727ed3edffb20b33836ef350564.setContent(html_6170ac77635552954d77ec6e3a0e1601);
+            
+        
+
+        circle_marker_c192de044b9033028a5017bf84e04e5a.bindPopup(popup_e3a4b727ed3edffb20b33836ef350564)
+        ;
+
+        
+    
+    
+            var circle_marker_35ccf8a015005250b88f02e637e6c64f = L.circleMarker(
+                [39.1598, 28.2744],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.0, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_2db8e4e82dfaaa70afa60ea319e03586 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_91fa0907a1fdfb70c19ead5195d41908 = $(`<div id="html_91fa0907a1fdfb70c19ead5195d41908" style="width: 100.0%; height: 100.0%;">12 km SE of Sındırgı, Turkey<br>Mag:4.5<br>Depth:15.856 km</div>`)[0];
+                popup_2db8e4e82dfaaa70afa60ea319e03586.setContent(html_91fa0907a1fdfb70c19ead5195d41908);
+            
+        
+
+        circle_marker_35ccf8a015005250b88f02e637e6c64f.bindPopup(popup_2db8e4e82dfaaa70afa60ea319e03586)
+        ;
+
+        
+    
+    
+            var circle_marker_6148a446d3ed4dbcb34d0115222728b2 = L.circleMarker(
+                [39.1772, 28.2285],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.2, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_1b1c27d91fee70677104f0142a36186f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8f1f0935aef6bc1b4ceb8af007d2f595 = $(`<div id="html_8f1f0935aef6bc1b4ceb8af007d2f595" style="width: 100.0%; height: 100.0%;">8 km SSE of Sındırgı, Turkey<br>Mag:4.6<br>Depth:18.284 km</div>`)[0];
+                popup_1b1c27d91fee70677104f0142a36186f.setContent(html_8f1f0935aef6bc1b4ceb8af007d2f595);
+            
+        
+
+        circle_marker_6148a446d3ed4dbcb34d0115222728b2.bindPopup(popup_1b1c27d91fee70677104f0142a36186f)
+        ;
+
+        
+    
+    
+            var circle_marker_3fae3843049ec4520092b9a03fa0b6db = L.circleMarker(
+                [36.5001, 34.1352],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.4, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_96fd1e92456e829cc946f500e1ffe84d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e08d58b8bfecf86043d0534dbfe1dbb3 = $(`<div id="html_e08d58b8bfecf86043d0534dbfe1dbb3" style="width: 100.0%; height: 100.0%;">4 km N of Kızkalesi, Turkey<br>Mag:4.2<br>Depth:10.0 km</div>`)[0];
+                popup_96fd1e92456e829cc946f500e1ffe84d.setContent(html_e08d58b8bfecf86043d0534dbfe1dbb3);
+            
+        
+
+        circle_marker_3fae3843049ec4520092b9a03fa0b6db.bindPopup(popup_96fd1e92456e829cc946f500e1ffe84d)
+        ;
+
+        
+    
+    
+            var circle_marker_7fbf676929dce739df5729c13d17a08c = L.circleMarker(
+                [37.9262, 36.6857],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.4, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_5756f92c0407751f70fb9474b8f15065 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b96770d12d242302ef1c015694197837 = $(`<div id="html_b96770d12d242302ef1c015694197837" style="width: 100.0%; height: 100.0%;">19 km ESE of Göksun, Turkey<br>Mag:4.2<br>Depth:10.0 km</div>`)[0];
+                popup_5756f92c0407751f70fb9474b8f15065.setContent(html_b96770d12d242302ef1c015694197837);
+            
+        
+
+        circle_marker_7fbf676929dce739df5729c13d17a08c.bindPopup(popup_5756f92c0407751f70fb9474b8f15065)
+        ;
+
+        
+    
+    
+            var circle_marker_3c285a24be7a6cbd35ee7a8516de5fd1 = L.circleMarker(
+                [38.3162, 38.9255],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.2, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_5d075755737f23b43cf3af63a3f75fd0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0575eb72d8111eb4e515bc5dd62529c3 = $(`<div id="html_0575eb72d8111eb4e515bc5dd62529c3" style="width: 100.0%; height: 100.0%;">9 km W of Doğanyol, Turkey<br>Mag:4.6<br>Depth:11.39 km</div>`)[0];
+                popup_5d075755737f23b43cf3af63a3f75fd0.setContent(html_0575eb72d8111eb4e515bc5dd62529c3);
+            
+        
+
+        circle_marker_3c285a24be7a6cbd35ee7a8516de5fd1.bindPopup(popup_5d075755737f23b43cf3af63a3f75fd0)
+        ;
+
+        
+    
+    
+            var circle_marker_2b02dc2129b331eb9c9f7326d29086c3 = L.circleMarker(
+                [39.4947, 40.6237],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.2, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_24a39b9d81e2135341d376a30de66dd0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f104ca49f28a07023056c86497ebbe60 = $(`<div id="html_f104ca49f28a07023056c86497ebbe60" style="width: 100.0%; height: 100.0%;">10 km NE of Yedisu, Turkey<br>Mag:4.1<br>Depth:10.0 km</div>`)[0];
+                popup_24a39b9d81e2135341d376a30de66dd0.setContent(html_f104ca49f28a07023056c86497ebbe60);
+            
+        
+
+        circle_marker_2b02dc2129b331eb9c9f7326d29086c3.bindPopup(popup_24a39b9d81e2135341d376a30de66dd0)
+        ;
+
+        
+    
+    
+            var circle_marker_11d8dd8ecc8c820e836f68f3b8be09f7 = L.circleMarker(
+                [36.6364, 36.4572],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.2, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_dd6961fcafbc2ca17649c9e7f434cd2d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e7e04dbdf1aabd707386c700834c7e39 = $(`<div id="html_e7e04dbdf1aabd707386c700834c7e39" style="width: 100.0%; height: 100.0%;">17 km NNE of Kırıkhan, Turkey<br>Mag:4.1<br>Depth:10.0 km</div>`)[0];
+                popup_dd6961fcafbc2ca17649c9e7f434cd2d.setContent(html_e7e04dbdf1aabd707386c700834c7e39);
+            
+        
+
+        circle_marker_11d8dd8ecc8c820e836f68f3b8be09f7.bindPopup(popup_dd6961fcafbc2ca17649c9e7f434cd2d)
+        ;
+
+        
+    
+    
+            var circle_marker_8bf2fd84c75555b16da08081bfae0f8b = L.circleMarker(
+                [36.9515, 30.8279],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.2, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_8d215d795a0c7ad20d6b013c5539c730 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ca323d86c593d11dcebd6cb0728e7444 = $(`<div id="html_ca323d86c593d11dcebd6cb0728e7444" style="width: 100.0%; height: 100.0%;">8 km NE of Muratpaşa, Turkey<br>Mag:4.1<br>Depth:105.95 km</div>`)[0];
+                popup_8d215d795a0c7ad20d6b013c5539c730.setContent(html_ca323d86c593d11dcebd6cb0728e7444);
+            
+        
+
+        circle_marker_8bf2fd84c75555b16da08081bfae0f8b.bindPopup(popup_8d215d795a0c7ad20d6b013c5539c730)
+        ;
+
+        
+    
+    
+            var circle_marker_f4c9c6204983d06083b9bb0ba4fad16a = L.circleMarker(
+                [39.2885, 28.3186],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.0, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_fb1d0054da2f41a6b3cc79b970286b06 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1bc2533dd73c683fdd9a6c6a826b7176 = $(`<div id="html_1bc2533dd73c683fdd9a6c6a826b7176" style="width: 100.0%; height: 100.0%;">13 km ENE of Sındırgı, Turkey<br>Mag:4.5<br>Depth:10.0 km</div>`)[0];
+                popup_fb1d0054da2f41a6b3cc79b970286b06.setContent(html_1bc2533dd73c683fdd9a6c6a826b7176);
+            
+        
+
+        circle_marker_f4c9c6204983d06083b9bb0ba4fad16a.bindPopup(popup_fb1d0054da2f41a6b3cc79b970286b06)
+        ;
+
+        
+    
+    
+            var circle_marker_89171ba031121edca1da8e7114cba321 = L.circleMarker(
+                [39.5831, 39.7579],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.8, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_63e177ac6d508bd7cf65af7a2ce6e185 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4dc743a0322463f748868de80f26d6bd = $(`<div id="html_4dc743a0322463f748868de80f26d6bd" style="width: 100.0%; height: 100.0%;">14 km SSE of Cimin, Turkey<br>Mag:4.4<br>Depth:10.0 km</div>`)[0];
+                popup_63e177ac6d508bd7cf65af7a2ce6e185.setContent(html_4dc743a0322463f748868de80f26d6bd);
+            
+        
+
+        circle_marker_89171ba031121edca1da8e7114cba321.bindPopup(popup_63e177ac6d508bd7cf65af7a2ce6e185)
+        ;
+
+        
+    
+    
+            var circle_marker_746ef890cb93014bfd15c0dad1b3d4eb = L.circleMarker(
+                [37.1026, 30.7856],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.2, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_79b5e2270f9c9ce0481e72826412c273 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fe2b75399ab40fd39769a6e6b1416d1f = $(`<div id="html_fe2b75399ab40fd39769a6e6b1416d1f" style="width: 100.0%; height: 100.0%;">23 km NNE of Antalya, Turkey<br>Mag:5.1<br>Depth:113.694 km</div>`)[0];
+                popup_79b5e2270f9c9ce0481e72826412c273.setContent(html_fe2b75399ab40fd39769a6e6b1416d1f);
+            
+        
+
+        circle_marker_746ef890cb93014bfd15c0dad1b3d4eb.bindPopup(popup_79b5e2270f9c9ce0481e72826412c273)
+        ;
+
+        
+    
+    
+            var circle_marker_977134c44ec4350f58e14b94907b92ea = L.circleMarker(
+                [36.7393, 30.4636],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.2, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_31b426c0f8ecb4f6f9842a59d220d1d7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ec4771530aa2f50a58bd1ea385857ac8 = $(`<div id="html_ec4771530aa2f50a58bd1ea385857ac8" style="width: 100.0%; height: 100.0%;">11 km NW of Göynük, Turkey<br>Mag:4.6<br>Depth:10.0 km</div>`)[0];
+                popup_31b426c0f8ecb4f6f9842a59d220d1d7.setContent(html_ec4771530aa2f50a58bd1ea385857ac8);
+            
+        
+
+        circle_marker_977134c44ec4350f58e14b94907b92ea.bindPopup(popup_31b426c0f8ecb4f6f9842a59d220d1d7)
+        ;
+
+        
+    
+    
+            var circle_marker_430b486ecc2039988eec0b7080347688 = L.circleMarker(
+                [38.6912, 43.5715],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.8, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_a7e312727372e374d1a68b5648f60a7d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dbd37fc71e993143e699f24d98cc49f8 = $(`<div id="html_dbd37fc71e993143e699f24d98cc49f8" style="width: 100.0%; height: 100.0%;">27 km NE of Van, Turkey<br>Mag:4.4<br>Depth:18.284 km</div>`)[0];
+                popup_a7e312727372e374d1a68b5648f60a7d.setContent(html_dbd37fc71e993143e699f24d98cc49f8);
+            
+        
+
+        circle_marker_430b486ecc2039988eec0b7080347688.bindPopup(popup_a7e312727372e374d1a68b5648f60a7d)
+        ;
+
+        
+    
+    
+            var circle_marker_5d2c374a1398cd2c7cbc7fef794f3dae = L.circleMarker(
+                [39.1936, 28.0382],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.2, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_e00d390f0bbd43a84be457a2316cec31 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0ac270dbf1f0a874964e21609bface73 = $(`<div id="html_0ac270dbf1f0a874964e21609bface73" style="width: 100.0%; height: 100.0%;">13 km WSW of Sındırgı, Turkey<br>Mag:4.1<br>Depth:10.0 km</div>`)[0];
+                popup_e00d390f0bbd43a84be457a2316cec31.setContent(html_0ac270dbf1f0a874964e21609bface73);
+            
+        
+
+        circle_marker_5d2c374a1398cd2c7cbc7fef794f3dae.bindPopup(popup_e00d390f0bbd43a84be457a2316cec31)
+        ;
+
+        
+    
+    
+            var circle_marker_54843be3c50a441d6820cc10b821613a = L.circleMarker(
+                [37.1887, 36.7952],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.6, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_1758bbab5daefd17b59828a1e91e622a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cc51eebe4a42388acb256a9c8909451e = $(`<div id="html_cc51eebe4a42388acb256a9c8909451e" style="width: 100.0%; height: 100.0%;">5 km ENE of Nurdağı, Turkey<br>Mag:4.3<br>Depth:10.0 km</div>`)[0];
+                popup_1758bbab5daefd17b59828a1e91e622a.setContent(html_cc51eebe4a42388acb256a9c8909451e);
+            
+        
+
+        circle_marker_54843be3c50a441d6820cc10b821613a.bindPopup(popup_1758bbab5daefd17b59828a1e91e622a)
+        ;
+
+        
+    
+    
+            var circle_marker_7367c4f8a1ce455459b48b78fd689f67 = L.circleMarker(
+                [39.2087, 28.2723],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.0, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_6615e0a9523152ee9f39eae35b8ac00e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_98ef1c942420b0809a55725183e326e1 = $(`<div id="html_98ef1c942420b0809a55725183e326e1" style="width: 100.0%; height: 100.0%;">8 km ESE of Sındırgı, Turkey<br>Mag:4.5<br>Depth:10.0 km</div>`)[0];
+                popup_6615e0a9523152ee9f39eae35b8ac00e.setContent(html_98ef1c942420b0809a55725183e326e1);
+            
+        
+
+        circle_marker_7367c4f8a1ce455459b48b78fd689f67.bindPopup(popup_6615e0a9523152ee9f39eae35b8ac00e)
+        ;
+
+        
+    
+    
+            var circle_marker_a9801a5a0dd9ff5d476b00612bf4682b = L.circleMarker(
+                [39.1655, 28.2881],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.2, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_0f6679b47224598d0de8e836c5cd93f6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bdbfd203dcb17512f4a54adbdb4b7247 = $(`<div id="html_bdbfd203dcb17512f4a54adbdb4b7247" style="width: 100.0%; height: 100.0%;">12 km SE of Sındırgı, Turkey<br>Mag:4.1<br>Depth:10.0 km</div>`)[0];
+                popup_0f6679b47224598d0de8e836c5cd93f6.setContent(html_bdbfd203dcb17512f4a54adbdb4b7247);
+            
+        
+
+        circle_marker_a9801a5a0dd9ff5d476b00612bf4682b.bindPopup(popup_0f6679b47224598d0de8e836c5cd93f6)
+        ;
+
+        
+    
+    
+            var circle_marker_628f6eecfac212428aa7b5f4ed19cc8a = L.circleMarker(
+                [39.2303, 28.1113],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.4, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_5bc4c603b67422195b21c54adf0d3c5a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_91230e7ece2d74950cb2cf6bec78dc46 = $(`<div id="html_91230e7ece2d74950cb2cf6bec78dc46" style="width: 100.0%; height: 100.0%;">5 km WSW of Sındırgı, Turkey<br>Mag:4.2<br>Depth:10.0 km</div>`)[0];
+                popup_5bc4c603b67422195b21c54adf0d3c5a.setContent(html_91230e7ece2d74950cb2cf6bec78dc46);
+            
+        
+
+        circle_marker_628f6eecfac212428aa7b5f4ed19cc8a.bindPopup(popup_5bc4c603b67422195b21c54adf0d3c5a)
+        ;
+
+        
+    
+    
+            var circle_marker_a7aa73931835aa0a0ac9adac1c93a480 = L.circleMarker(
+                [39.2423, 28.124],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.8, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_977fee6e5ac771f496f3372f13d5cc4d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_caed8374d8d6546b2b6daab5c2ac2696 = $(`<div id="html_caed8374d8d6546b2b6daab5c2ac2696" style="width: 100.0%; height: 100.0%;">4 km W of Sındırgı, Turkey<br>Mag:4.4<br>Depth:10.0 km</div>`)[0];
+                popup_977fee6e5ac771f496f3372f13d5cc4d.setContent(html_caed8374d8d6546b2b6daab5c2ac2696);
+            
+        
+
+        circle_marker_a7aa73931835aa0a0ac9adac1c93a480.bindPopup(popup_977fee6e5ac771f496f3372f13d5cc4d)
+        ;
+
+        
+    
+    
+            var circle_marker_2a223464b8f483401fe97c16d9b5778e = L.circleMarker(
+                [39.2114, 28.1052],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.6, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_554fce7d6dc46bb931bd151f59a014d8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_697e8e0cd0a0174f897112704ed8b77d = $(`<div id="html_697e8e0cd0a0174f897112704ed8b77d" style="width: 100.0%; height: 100.0%;">7 km WSW of Sındırgı, Turkey<br>Mag:4.3<br>Depth:10.0 km</div>`)[0];
+                popup_554fce7d6dc46bb931bd151f59a014d8.setContent(html_697e8e0cd0a0174f897112704ed8b77d);
+            
+        
+
+        circle_marker_2a223464b8f483401fe97c16d9b5778e.bindPopup(popup_554fce7d6dc46bb931bd151f59a014d8)
+        ;
+
+        
+    
+    
+            var circle_marker_a78bada2599e057ab5bc827b84c98fa2 = L.circleMarker(
+                [39.2616, 28.0459],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.2, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_0ce581b582036598dee37f1bc8b0df62 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5c1c2df554e5e51c4ad0c7407057fe8c = $(`<div id="html_5c1c2df554e5e51c4ad0c7407057fe8c" style="width: 100.0%; height: 100.0%;">11 km W of Sındırgı, Turkey<br>Mag:4.6<br>Depth:13.41 km</div>`)[0];
+                popup_0ce581b582036598dee37f1bc8b0df62.setContent(html_5c1c2df554e5e51c4ad0c7407057fe8c);
+            
+        
+
+        circle_marker_a78bada2599e057ab5bc827b84c98fa2.bindPopup(popup_0ce581b582036598dee37f1bc8b0df62)
+        ;
+
+        
+    
+    
+            var circle_marker_5bb20d72c70510ae92e9f779294ba168 = L.circleMarker(
+                [39.215, 28.0165],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.2, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_9bdfcd52165ff7ed29ed3e850f1ecee1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4b3fef1a6efef745a7d29ef4dfedcf80 = $(`<div id="html_4b3fef1a6efef745a7d29ef4dfedcf80" style="width: 100.0%; height: 100.0%;">14 km WSW of Sındırgı, Turkey<br>Mag:4.1<br>Depth:12.851 km</div>`)[0];
+                popup_9bdfcd52165ff7ed29ed3e850f1ecee1.setContent(html_4b3fef1a6efef745a7d29ef4dfedcf80);
+            
+        
+
+        circle_marker_5bb20d72c70510ae92e9f779294ba168.bindPopup(popup_9bdfcd52165ff7ed29ed3e850f1ecee1)
+        ;
+
+        
+    
+    
+            var circle_marker_8bb3f5a4df0b6e3c8234ec0a8a16e99b = L.circleMarker(
+                [39.2313, 28.1134],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.8, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_0848e131b0cdf41d963838b4f3cd563c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a8f467d3039de3db35ead51ab4354768 = $(`<div id="html_a8f467d3039de3db35ead51ab4354768" style="width: 100.0%; height: 100.0%;">5 km W of Sındırgı, Turkey<br>Mag:4.4<br>Depth:10.0 km</div>`)[0];
+                popup_0848e131b0cdf41d963838b4f3cd563c.setContent(html_a8f467d3039de3db35ead51ab4354768);
+            
+        
+
+        circle_marker_8bb3f5a4df0b6e3c8234ec0a8a16e99b.bindPopup(popup_0848e131b0cdf41d963838b4f3cd563c)
+        ;
+
+        
+    
+    
+            var circle_marker_ac97b2a6577ea6374cc557d56233e508 = L.circleMarker(
+                [39.208, 28.0825],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.6, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_b39c5f9f532844d125f55ce47b9f21b4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dc95540d9a32057c3557f02e921d9afb = $(`<div id="html_dc95540d9a32057c3557f02e921d9afb" style="width: 100.0%; height: 100.0%;">9 km WSW of Sındırgı, Turkey<br>Mag:4.8<br>Depth:10.0 km</div>`)[0];
+                popup_b39c5f9f532844d125f55ce47b9f21b4.setContent(html_dc95540d9a32057c3557f02e921d9afb);
+            
+        
+
+        circle_marker_ac97b2a6577ea6374cc557d56233e508.bindPopup(popup_b39c5f9f532844d125f55ce47b9f21b4)
+        ;
+
+        
+    
+    
+            var circle_marker_1f7305cb5c75d8f15deff9b2c9ab7f21 = L.circleMarker(
+                [39.1408, 28.2547],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.0, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_d2adee2e51b2f283522ddf90bee0c2eb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8c5b9e605329ba8b01dbc41d518ff49d = $(`<div id="html_8c5b9e605329ba8b01dbc41d518ff49d" style="width: 100.0%; height: 100.0%;">12 km SSE of Sındırgı, Turkey<br>Mag:4.5<br>Depth:10.0 km</div>`)[0];
+                popup_d2adee2e51b2f283522ddf90bee0c2eb.setContent(html_8c5b9e605329ba8b01dbc41d518ff49d);
+            
+        
+
+        circle_marker_1f7305cb5c75d8f15deff9b2c9ab7f21.bindPopup(popup_d2adee2e51b2f283522ddf90bee0c2eb)
+        ;
+
+        
+    
+    
+            var circle_marker_5bbc1b6e4409e0927e75746a0b855f7e = L.circleMarker(
+                [39.2195, 28.0363],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.4, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_abf57529b5d893ad6430d6deb33b0771 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a3d05c3bd4b7886e4838442484a7f2f3 = $(`<div id="html_a3d05c3bd4b7886e4838442484a7f2f3" style="width: 100.0%; height: 100.0%;">12 km W of Sındırgı, Turkey<br>Mag:4.7<br>Depth:10.0 km</div>`)[0];
+                popup_abf57529b5d893ad6430d6deb33b0771.setContent(html_a3d05c3bd4b7886e4838442484a7f2f3);
+            
+        
+
+        circle_marker_5bbc1b6e4409e0927e75746a0b855f7e.bindPopup(popup_abf57529b5d893ad6430d6deb33b0771)
+        ;
+
+        
+    
+    
+            var circle_marker_a7289034a6b2ffbf3f86234db9967349 = L.circleMarker(
+                [39.2466, 28.1006],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.6, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_2de72aaf17d660c5c1ab2260c1e68fda = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b610837b94c90db5d7688a0b89dec0f6 = $(`<div id="html_b610837b94c90db5d7688a0b89dec0f6" style="width: 100.0%; height: 100.0%;">6 km W of Sındırgı, Turkey<br>Mag:4.3<br>Depth:10.0 km</div>`)[0];
+                popup_2de72aaf17d660c5c1ab2260c1e68fda.setContent(html_b610837b94c90db5d7688a0b89dec0f6);
+            
+        
+
+        circle_marker_a7289034a6b2ffbf3f86234db9967349.bindPopup(popup_2de72aaf17d660c5c1ab2260c1e68fda)
+        ;
+
+        
+    
+    
+            var circle_marker_4120af99c41daac9fd06df1fdb02d3a2 = L.circleMarker(
+                [39.2481, 28.1086],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.8, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_028029bd4f18802e6085d628dc6dec62 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a9294bc589c9f095670bee817c253ff5 = $(`<div id="html_a9294bc589c9f095670bee817c253ff5" style="width: 100.0%; height: 100.0%;">6 km W of Sındırgı, Turkey<br>Mag:4.4<br>Depth:8.206 km</div>`)[0];
+                popup_028029bd4f18802e6085d628dc6dec62.setContent(html_a9294bc589c9f095670bee817c253ff5);
+            
+        
+
+        circle_marker_4120af99c41daac9fd06df1fdb02d3a2.bindPopup(popup_028029bd4f18802e6085d628dc6dec62)
+        ;
+
+        
+    
+    
+            var circle_marker_8b2e3ea5de064c5e7cd0949a6905f822 = L.circleMarker(
+                [36.147, 36.1147],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.2, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_4fb7be5a8675b7964c70572ae5d76dbe = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eab6e21dc8929f33d1f28f147a19f736 = $(`<div id="html_eab6e21dc8929f33d1f28f147a19f736" style="width: 100.0%; height: 100.0%;">1 km WSW of Samankaya, Turkey<br>Mag:3.6<br>Depth:39.618 km</div>`)[0];
+                popup_4fb7be5a8675b7964c70572ae5d76dbe.setContent(html_eab6e21dc8929f33d1f28f147a19f736);
+            
+        
+
+        circle_marker_8b2e3ea5de064c5e7cd0949a6905f822.bindPopup(popup_4fb7be5a8675b7964c70572ae5d76dbe)
+        ;
+
+        
+    
+    
+            var circle_marker_35ab2d7c3892ae8f196ce9ea8cc4b492 = L.circleMarker(
+                [39.162, 28.1825],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.8, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_8c0ff234f749f9760e56886e46aed278 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dc8c6e0222aeb0e6f953b5f93f9a87f0 = $(`<div id="html_dc8c6e0222aeb0e6f953b5f93f9a87f0" style="width: 100.0%; height: 100.0%;">8 km S of Sındırgı, Turkey<br>Mag:4.4<br>Depth:10.0 km</div>`)[0];
+                popup_8c0ff234f749f9760e56886e46aed278.setContent(html_dc8c6e0222aeb0e6f953b5f93f9a87f0);
+            
+        
+
+        circle_marker_35ab2d7c3892ae8f196ce9ea8cc4b492.bindPopup(popup_8c0ff234f749f9760e56886e46aed278)
+        ;
+
+        
+    
+    
+            var circle_marker_8f32e5f640de8724af4d1375bc6ce6e9 = L.circleMarker(
+                [39.2365, 28.1235],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.6, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_9e39fccbcf0d9e5d2a13b592860fc445 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d279e7b46ab6b815b130b410514109e7 = $(`<div id="html_d279e7b46ab6b815b130b410514109e7" style="width: 100.0%; height: 100.0%;">4 km W of Sındırgı, Turkey<br>Mag:4.3<br>Depth:10.0 km</div>`)[0];
+                popup_9e39fccbcf0d9e5d2a13b592860fc445.setContent(html_d279e7b46ab6b815b130b410514109e7);
+            
+        
+
+        circle_marker_8f32e5f640de8724af4d1375bc6ce6e9.bindPopup(popup_9e39fccbcf0d9e5d2a13b592860fc445)
+        ;
+
+        
+    
+    
+            var circle_marker_b3f43210140cb234f6b42d01f690a15a = L.circleMarker(
+                [39.1744, 28.4156],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.0, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_0ae898727446e3fb5f21f2ebb620ff39 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ce1ce89433b27053df1b873c561d0d49 = $(`<div id="html_ce1ce89433b27053df1b873c561d0d49" style="width: 100.0%; height: 100.0%;">21 km ESE of Sındırgı, Turkey<br>Mag:5.0<br>Depth:10.0 km</div>`)[0];
+                popup_0ae898727446e3fb5f21f2ebb620ff39.setContent(html_ce1ce89433b27053df1b873c561d0d49);
+            
+        
+
+        circle_marker_b3f43210140cb234f6b42d01f690a15a.bindPopup(popup_0ae898727446e3fb5f21f2ebb620ff39)
+        ;
+
+        
+    
+    
+            var circle_marker_996e68dee23be158e20a5665a6a8559a = L.circleMarker(
+                [39.1954, 28.2157],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.6, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_17d9b9bbaf7318997dfd8481d30d9495 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f0be79338581f926e46a1779d9db9a0e = $(`<div id="html_f0be79338581f926e46a1779d9db9a0e" style="width: 100.0%; height: 100.0%;">6 km SSE of Sındırgı, Turkey<br>Mag:4.8<br>Depth:10.0 km</div>`)[0];
+                popup_17d9b9bbaf7318997dfd8481d30d9495.setContent(html_f0be79338581f926e46a1779d9db9a0e);
+            
+        
+
+        circle_marker_996e68dee23be158e20a5665a6a8559a.bindPopup(popup_17d9b9bbaf7318997dfd8481d30d9495)
+        ;
+
+        
+    
+    
+            var circle_marker_9cab7ff9276b2bb7750109336914627c = L.circleMarker(
+                [39.1389, 28.171],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.2, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_1b6e54c66124acdb9a3bf306f2b2cbb4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_24bd1596bd61a0f483ada01cc164e7ea = $(`<div id="html_24bd1596bd61a0f483ada01cc164e7ea" style="width: 100.0%; height: 100.0%;">11 km S of Sındırgı, Turkey<br>Mag:4.1<br>Depth:10.0 km</div>`)[0];
+                popup_1b6e54c66124acdb9a3bf306f2b2cbb4.setContent(html_24bd1596bd61a0f483ada01cc164e7ea);
+            
+        
+
+        circle_marker_9cab7ff9276b2bb7750109336914627c.bindPopup(popup_1b6e54c66124acdb9a3bf306f2b2cbb4)
+        ;
+
+        
+    
+    
+            var circle_marker_cc1b9f9254141177b0fbe714ccb1a7b7 = L.circleMarker(
+                [39.1968, 28.1279],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.8, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_eba51c3957505a1ca27da446f446a94f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_917a8106c5c1a1bf66a640aba50fe919 = $(`<div id="html_917a8106c5c1a1bf66a640aba50fe919" style="width: 100.0%; height: 100.0%;">6 km SW of Sındırgı, Turkey<br>Mag:4.4<br>Depth:10.0 km</div>`)[0];
+                popup_eba51c3957505a1ca27da446f446a94f.setContent(html_917a8106c5c1a1bf66a640aba50fe919);
+            
+        
+
+        circle_marker_cc1b9f9254141177b0fbe714ccb1a7b7.bindPopup(popup_eba51c3957505a1ca27da446f446a94f)
+        ;
+
+        
+    
+    
+            var circle_marker_fd4472d3434020f5aad4141fda25b7ec = L.circleMarker(
+                [39.1407, 28.2789],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.2, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_bbedba086bd8d0672bd1159ff5306a3c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_edbfe7fb279bd3263f64e97d7de322f1 = $(`<div id="html_edbfe7fb279bd3263f64e97d7de322f1" style="width: 100.0%; height: 100.0%;">14 km SE of Sındırgı, Turkey<br>Mag:4.1<br>Depth:12.166 km</div>`)[0];
+                popup_bbedba086bd8d0672bd1159ff5306a3c.setContent(html_edbfe7fb279bd3263f64e97d7de322f1);
+            
+        
+
+        circle_marker_fd4472d3434020f5aad4141fda25b7ec.bindPopup(popup_bbedba086bd8d0672bd1159ff5306a3c)
+        ;
+
+        
+    
+    
+            var circle_marker_5a32d5db0de3d3f31f3ec07fb6e56fbf = L.circleMarker(
+                [39.1701, 28.1493],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.4, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_261ccc070d3f162657fab339dbd4158c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_32231d2f80d031acd525c33888d1fa62 = $(`<div id="html_32231d2f80d031acd525c33888d1fa62" style="width: 100.0%; height: 100.0%;">8 km SSW of Sındırgı, Turkey<br>Mag:4.2<br>Depth:10.0 km</div>`)[0];
+                popup_261ccc070d3f162657fab339dbd4158c.setContent(html_32231d2f80d031acd525c33888d1fa62);
+            
+        
+
+        circle_marker_5a32d5db0de3d3f31f3ec07fb6e56fbf.bindPopup(popup_261ccc070d3f162657fab339dbd4158c)
+        ;
+
+        
+    
+    
+            var circle_marker_18a881101521a3624a05d302bee71fce = L.circleMarker(
+                [39.1461, 28.1491],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.0, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_614bfdb26eb656763a6cc8a8a5dcce26 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_54365b404a39a4c31734382c5b7ba9b8 = $(`<div id="html_54365b404a39a4c31734382c5b7ba9b8" style="width: 100.0%; height: 100.0%;">10 km SSW of Sındırgı, Turkey<br>Mag:4.5<br>Depth:10.0 km</div>`)[0];
+                popup_614bfdb26eb656763a6cc8a8a5dcce26.setContent(html_54365b404a39a4c31734382c5b7ba9b8);
+            
+        
+
+        circle_marker_18a881101521a3624a05d302bee71fce.bindPopup(popup_614bfdb26eb656763a6cc8a8a5dcce26)
+        ;
+
+        
+    
+    
+            var circle_marker_9e74053ff803189ac5e5f4358b561155 = L.circleMarker(
+                [39.2592, 28.3214],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.8, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_e2b0a840751c2429be7162533ba2d818 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1dc69393f82712ffd8e7455955b3ce3b = $(`<div id="html_1dc69393f82712ffd8e7455955b3ce3b" style="width: 100.0%; height: 100.0%;">12 km E of Sındırgı, Turkey<br>Mag:4.9<br>Depth:10.0 km</div>`)[0];
+                popup_e2b0a840751c2429be7162533ba2d818.setContent(html_1dc69393f82712ffd8e7455955b3ce3b);
+            
+        
+
+        circle_marker_9e74053ff803189ac5e5f4358b561155.bindPopup(popup_e2b0a840751c2429be7162533ba2d818)
+        ;
+
+        
+    
+    
+            var circle_marker_330d44139c86be9799feb58f3a9ad0be = L.circleMarker(
+                [39.218, 28.2551],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.8, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_bafb41e482158aab65ec0de48ff009a1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0a1d8df554ac30f51b145086bd3fade2 = $(`<div id="html_0a1d8df554ac30f51b145086bd3fade2" style="width: 100.0%; height: 100.0%;">7 km ESE of Sındırgı, Turkey<br>Mag:4.9<br>Depth:10.0 km</div>`)[0];
+                popup_bafb41e482158aab65ec0de48ff009a1.setContent(html_0a1d8df554ac30f51b145086bd3fade2);
+            
+        
+
+        circle_marker_330d44139c86be9799feb58f3a9ad0be.bindPopup(popup_bafb41e482158aab65ec0de48ff009a1)
+        ;
+
+        
+    
+    
+            var circle_marker_7c187b21c7dc80b8821823147696b011 = L.circleMarker(
+                [39.1811, 28.2136],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.8, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_9f36a5819eb2855586268c998eeec29b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d9b52421f856c96692666b225193e24c = $(`<div id="html_d9b52421f856c96692666b225193e24c" style="width: 100.0%; height: 100.0%;">7 km SSE of Sındırgı, Turkey<br>Mag:4.4<br>Depth:10.0 km</div>`)[0];
+                popup_9f36a5819eb2855586268c998eeec29b.setContent(html_d9b52421f856c96692666b225193e24c);
+            
+        
+
+        circle_marker_7c187b21c7dc80b8821823147696b011.bindPopup(popup_9f36a5819eb2855586268c998eeec29b)
+        ;
+
+        
+    
+    
+            var circle_marker_668596bff552c7e8e27cc9560207f13c = L.circleMarker(
+                [39.2068, 28.171],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.0, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_a2a426d3bdefd47e537d49913a7efdb6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0241fda8ad3c702b34baee0cc0834e4c = $(`<div id="html_0241fda8ad3c702b34baee0cc0834e4c" style="width: 100.0%; height: 100.0%;">3 km S of Sındırgı, Turkey<br>Mag:4.0<br>Depth:10.0 km</div>`)[0];
+                popup_a2a426d3bdefd47e537d49913a7efdb6.setContent(html_0241fda8ad3c702b34baee0cc0834e4c);
+            
+        
+
+        circle_marker_668596bff552c7e8e27cc9560207f13c.bindPopup(popup_a2a426d3bdefd47e537d49913a7efdb6)
+        ;
+
+        
+    
+    
+            var circle_marker_86c90cf6c4a842e8ef5549d066a8bf40 = L.circleMarker(
+                [39.1039, 28.1816],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.8, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_3fb796e03965a192a22f8163ae7eb23c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b1789cb01ac235c6411f16f1c1a6ad01 = $(`<div id="html_b1789cb01ac235c6411f16f1c1a6ad01" style="width: 100.0%; height: 100.0%;">15 km S of Sındırgı, Turkey<br>Mag:4.4<br>Depth:10.0 km</div>`)[0];
+                popup_3fb796e03965a192a22f8163ae7eb23c.setContent(html_b1789cb01ac235c6411f16f1c1a6ad01);
+            
+        
+
+        circle_marker_86c90cf6c4a842e8ef5549d066a8bf40.bindPopup(popup_3fb796e03965a192a22f8163ae7eb23c)
+        ;
+
+        
+    
+    
+            var circle_marker_449faa69d87e70d668b7a356ebb3c493 = L.circleMarker(
+                [39.1979, 28.2599],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.8, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_1977453c510dcb7716256ecf50404bc9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1569270adeb0ca2ef70d8453466a1493 = $(`<div id="html_1569270adeb0ca2ef70d8453466a1493" style="width: 100.0%; height: 100.0%;">8 km SE of Sındırgı, Turkey<br>Mag:4.4<br>Depth:10.0 km</div>`)[0];
+                popup_1977453c510dcb7716256ecf50404bc9.setContent(html_1569270adeb0ca2ef70d8453466a1493);
+            
+        
+
+        circle_marker_449faa69d87e70d668b7a356ebb3c493.bindPopup(popup_1977453c510dcb7716256ecf50404bc9)
+        ;
+
+        
+    
+    
+            var circle_marker_4dc31b3bd3273b7acb31a38f2d2b95b2 = L.circleMarker(
+                [39.1738, 28.2562],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.2, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_99b3093de78699504c2a69ce0d27cf18 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_224dd29f89dcc44fd4ba27df741acd00 = $(`<div id="html_224dd29f89dcc44fd4ba27df741acd00" style="width: 100.0%; height: 100.0%;">10 km SE of Sındırgı, Turkey<br>Mag:4.1<br>Depth:10.0 km</div>`)[0];
+                popup_99b3093de78699504c2a69ce0d27cf18.setContent(html_224dd29f89dcc44fd4ba27df741acd00);
+            
+        
+
+        circle_marker_4dc31b3bd3273b7acb31a38f2d2b95b2.bindPopup(popup_99b3093de78699504c2a69ce0d27cf18)
+        ;
+
+        
+    
+    
+            var circle_marker_cd5d83c5fd668654a1d79221d25936dc = L.circleMarker(
+                [39.2223, 28.048],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.4, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_fd153ab897eb43e5dd4cd31ea05c6dc5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_96018347d1060beed71b30473729b73d = $(`<div id="html_96018347d1060beed71b30473729b73d" style="width: 100.0%; height: 100.0%;">11 km W of Sındırgı, Turkey<br>Mag:4.2<br>Depth:10.0 km</div>`)[0];
+                popup_fd153ab897eb43e5dd4cd31ea05c6dc5.setContent(html_96018347d1060beed71b30473729b73d);
+            
+        
+
+        circle_marker_cd5d83c5fd668654a1d79221d25936dc.bindPopup(popup_fd153ab897eb43e5dd4cd31ea05c6dc5)
+        ;
+
+        
+    
+    
+            var circle_marker_9b5c57f0239a33fdd2d30b1a86f5bf5a = L.circleMarker(
+                [39.1821, 28.2514],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.4, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_f34406c48704741e778b8737990da629 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9ba363c01933027259e8d2ce2b060209 = $(`<div id="html_9ba363c01933027259e8d2ce2b060209" style="width: 100.0%; height: 100.0%;">9 km SE of Sındırgı, Turkey<br>Mag:4.2<br>Depth:10.0 km</div>`)[0];
+                popup_f34406c48704741e778b8737990da629.setContent(html_9ba363c01933027259e8d2ce2b060209);
+            
+        
+
+        circle_marker_9b5c57f0239a33fdd2d30b1a86f5bf5a.bindPopup(popup_f34406c48704741e778b8737990da629)
+        ;
+
+        
+    
+    
+            var circle_marker_d99f1316d1dbbede68ec8389c043b38d = L.circleMarker(
+                [39.1937, 28.2425],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.0, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_7f4891305c703b1a4e53d40307c4c777 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d5913773e5653e7d5e51ac843e2849f9 = $(`<div id="html_d5913773e5653e7d5e51ac843e2849f9" style="width: 100.0%; height: 100.0%;">7 km SE of Sındırgı, Turkey<br>Mag:6.0<br>Depth:8.0 km</div>`)[0];
+                popup_7f4891305c703b1a4e53d40307c4c777.setContent(html_d5913773e5653e7d5e51ac843e2849f9);
+            
+        
+
+        circle_marker_d99f1316d1dbbede68ec8389c043b38d.bindPopup(popup_7f4891305c703b1a4e53d40307c4c777)
+        ;
+
+        
+    
+    
+            var circle_marker_15c32ee2e0408735cd5d74dfab9fb9e7 = L.circleMarker(
+                [36.1705, 34.1984],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.4, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_864dc9895259e867af83452247076a21 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_73081c0fd7b79a3ec5a610fb1913604d = $(`<div id="html_73081c0fd7b79a3ec5a610fb1913604d" style="width: 100.0%; height: 100.0%;">32 km S of Kızkalesi, Turkey<br>Mag:4.2<br>Depth:10.0 km</div>`)[0];
+                popup_864dc9895259e867af83452247076a21.setContent(html_73081c0fd7b79a3ec5a610fb1913604d);
+            
+        
+
+        circle_marker_15c32ee2e0408735cd5d74dfab9fb9e7.bindPopup(popup_864dc9895259e867af83452247076a21)
+        ;
+
+        
+    
+    
+            var circle_marker_127526c6dade38bca3677e1d89cc0c25 = L.circleMarker(
+                [38.6003, 40.2583],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.4, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_9debd467868c27925a7665d973e8e7c5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cb2bd20df91f66f9d5341302eb7ff52a = $(`<div id="html_cb2bd20df91f66f9d5341302eb7ff52a" style="width: 100.0%; height: 100.0%;">12 km ENE of Arıcak, Turkey<br>Mag:4.2<br>Depth:10.0 km</div>`)[0];
+                popup_9debd467868c27925a7665d973e8e7c5.setContent(html_cb2bd20df91f66f9d5341302eb7ff52a);
+            
+        
+
+        circle_marker_127526c6dade38bca3677e1d89cc0c25.bindPopup(popup_9debd467868c27925a7665d973e8e7c5)
+        ;
+
+        
+    
+    
+            var circle_marker_f8bf5aab37b4d8b510550f98d327fa73 = L.circleMarker(
+                [36.5874, 28.4694],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.8, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_7de2d888f688a458d1b344bd5bc90004 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a4aa5fe2a18dca5d82b4c7b6bd7a3732 = $(`<div id="html_a4aa5fe2a18dca5d82b4c7b6bd7a3732" style="width: 100.0%; height: 100.0%;">25 km SW of Sarigerme, Turkey<br>Mag:4.4<br>Depth:50.875 km</div>`)[0];
+                popup_7de2d888f688a458d1b344bd5bc90004.setContent(html_a4aa5fe2a18dca5d82b4c7b6bd7a3732);
+            
+        
+
+        circle_marker_f8bf5aab37b4d8b510550f98d327fa73.bindPopup(popup_7de2d888f688a458d1b344bd5bc90004)
+        ;
+
+        
+    
+    
+            var circle_marker_85d0af78f9cb77b834d08d984abe1d31 = L.circleMarker(
+                [37.2945, 36.9665],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.2, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_2f8a39f612c24943aa9135981ef87bb0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f0fb0b6e7b9309221ab6a1506505ec52 = $(`<div id="html_f0fb0b6e7b9309221ab6a1506505ec52" style="width: 100.0%; height: 100.0%;">24 km NE of Nurdağı, Turkey<br>Mag:4.1<br>Depth:10.0 km</div>`)[0];
+                popup_2f8a39f612c24943aa9135981ef87bb0.setContent(html_f0fb0b6e7b9309221ab6a1506505ec52);
+            
+        
+
+        circle_marker_85d0af78f9cb77b834d08d984abe1d31.bindPopup(popup_2f8a39f612c24943aa9135981ef87bb0)
+        ;
+
+        
+    
+    
+            var circle_marker_e82ccd5957a85893286c45f4d109b146 = L.circleMarker(
+                [37.7871, 36.1678],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.6, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_99e6c3619781f474ba1b21379a778408 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f5d0a87a7d823a6e0186f7fbc3f5dc87 = $(`<div id="html_f5d0a87a7d823a6e0186f7fbc3f5dc87" style="width: 100.0%; height: 100.0%;">22 km E of Feke, Turkey<br>Mag:4.3<br>Depth:12.785 km</div>`)[0];
+                popup_99e6c3619781f474ba1b21379a778408.setContent(html_f5d0a87a7d823a6e0186f7fbc3f5dc87);
+            
+        
+
+        circle_marker_e82ccd5957a85893286c45f4d109b146.bindPopup(popup_99e6c3619781f474ba1b21379a778408)
+        ;
+
+        
+    
+    
+            var circle_marker_1b158185dce7009742a6e12109af2f99 = L.circleMarker(
+                [37.0416, 28.4821],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.8, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_cb84b289c38c49a97acfab904f614711 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0bd6ecb7634cc4617cd17afc8314b1b6 = $(`<div id="html_0bd6ecb7634cc4617cd17afc8314b1b6" style="width: 100.0%; height: 100.0%;">9 km SE of Ula, Turkey<br>Mag:4.4<br>Depth:10.0 km</div>`)[0];
+                popup_cb84b289c38c49a97acfab904f614711.setContent(html_0bd6ecb7634cc4617cd17afc8314b1b6);
+            
+        
+
+        circle_marker_1b158185dce7009742a6e12109af2f99.bindPopup(popup_cb84b289c38c49a97acfab904f614711)
+        ;
+
+        
+    
+    
+            var circle_marker_0ec798cc6a88389fabe9ac5c95f5cd87 = L.circleMarker(
+                [39.2779, 29.0756],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.8, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_9e37d1c818112fbe113678634ebacdd8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6c3aa66a963e57ffee3aa4b01b2ab4e1 = $(`<div id="html_6c3aa66a963e57ffee3aa4b01b2ab4e1" style="width: 100.0%; height: 100.0%;">17 km WSW of Emet, Turkey<br>Mag:4.9<br>Depth:14.878 km</div>`)[0];
+                popup_9e37d1c818112fbe113678634ebacdd8.setContent(html_6c3aa66a963e57ffee3aa4b01b2ab4e1);
+            
+        
+
+        circle_marker_0ec798cc6a88389fabe9ac5c95f5cd87.bindPopup(popup_9e37d1c818112fbe113678634ebacdd8)
+        ;
+
+        
+    
+    
+            var circle_marker_72a89e116ed93791212739a8b05a41dc = L.circleMarker(
+                [39.2754, 28.8874],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.2, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_ff91cbc2301359e25866124a5abecf91 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_65538c65a67cfdb120a8fcfaef9c9962 = $(`<div id="html_65538c65a67cfdb120a8fcfaef9c9962" style="width: 100.0%; height: 100.0%;">22 km NNW of Simav, Turkey<br>Mag:4.1<br>Depth:10.0 km</div>`)[0];
+                popup_ff91cbc2301359e25866124a5abecf91.setContent(html_65538c65a67cfdb120a8fcfaef9c9962);
+            
+        
+
+        circle_marker_72a89e116ed93791212739a8b05a41dc.bindPopup(popup_ff91cbc2301359e25866124a5abecf91)
+        ;
+
+        
+    
+    
+            var circle_marker_d89f34aff9ec4b11126eced1117a61a9 = L.circleMarker(
+                [40.7641, 27.9515],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.0, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_24e67c5aa339629a26ebb9a4280372bf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_13ba248b75cb671bbf2569cf3e71e97e = $(`<div id="html_13ba248b75cb671bbf2569cf3e71e97e" style="width: 100.0%; height: 100.0%;">22 km S of Marmara Ereğlisi, Turkey<br>Mag:5.0<br>Depth:10.0 km</div>`)[0];
+                popup_24e67c5aa339629a26ebb9a4280372bf.setContent(html_13ba248b75cb671bbf2569cf3e71e97e);
+            
+        
+
+        circle_marker_d89f34aff9ec4b11126eced1117a61a9.bindPopup(popup_24e67c5aa339629a26ebb9a4280372bf)
+        ;
+
+        
+    
+    
+            var circle_marker_034c90b7dcc2accb9a5fcecc6e84fe6d = L.circleMarker(
+                [39.3784, 29.0045],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.2, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_97a0e22fd6f421ed5c1dd60312dca858 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a4c684cb030143e2428772aac74faac5 = $(`<div id="html_a4c684cb030143e2428772aac74faac5" style="width: 100.0%; height: 100.0%;">22 km W of Emet, Turkey<br>Mag:4.6<br>Depth:10.0 km</div>`)[0];
+                popup_97a0e22fd6f421ed5c1dd60312dca858.setContent(html_a4c684cb030143e2428772aac74faac5);
+            
+        
+
+        circle_marker_034c90b7dcc2accb9a5fcecc6e84fe6d.bindPopup(popup_97a0e22fd6f421ed5c1dd60312dca858)
+        ;
+
+        
+    
+    
+            var circle_marker_34a0d26e1818c327e1fc29306d2613f9 = L.circleMarker(
+                [39.238, 28.9377],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.4, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_5cd28cfb8785153a19488ca356c960e8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bd27980357ea7f4128eefc1aef252169 = $(`<div id="html_bd27980357ea7f4128eefc1aef252169" style="width: 100.0%; height: 100.0%;">16 km NNW of Simav, Turkey<br>Mag:5.2<br>Depth:10.0 km</div>`)[0];
+                popup_5cd28cfb8785153a19488ca356c960e8.setContent(html_bd27980357ea7f4128eefc1aef252169);
+            
+        
+
+        circle_marker_34a0d26e1818c327e1fc29306d2613f9.bindPopup(popup_5cd28cfb8785153a19488ca356c960e8)
+        ;
+
+        
+    
+    
+            var circle_marker_89677ae07a39223fc669722ba05d650a = L.circleMarker(
+                [40.034, 40.7433],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.4, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_be1291c8b182937399b5b142a6639161 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_13c47233083260cfd3fdda871c1c1ae3 = $(`<div id="html_13c47233083260cfd3fdda871c1c1ae3" style="width: 100.0%; height: 100.0%;">13 km NNE of Aşkale, Turkey<br>Mag:4.2<br>Depth:14.742 km</div>`)[0];
+                popup_be1291c8b182937399b5b142a6639161.setContent(html_13c47233083260cfd3fdda871c1c1ae3);
+            
+        
+
+        circle_marker_89677ae07a39223fc669722ba05d650a.bindPopup(popup_be1291c8b182937399b5b142a6639161)
+        ;
+
+        
+    
+    
+            var circle_marker_b930e1ec265567895a7a85baed8822eb = L.circleMarker(
+                [39.2156, 28.0869],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.2, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_c07f033b8da29f16a4621698dc8f71a5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_558579122138e4a2065cf75e7bd17ea5 = $(`<div id="html_558579122138e4a2065cf75e7bd17ea5" style="width: 100.0%; height: 100.0%;">8 km WSW of Sındırgı, Turkey<br>Mag:4.6<br>Depth:27.155 km</div>`)[0];
+                popup_c07f033b8da29f16a4621698dc8f71a5.setContent(html_558579122138e4a2065cf75e7bd17ea5);
+            
+        
+
+        circle_marker_b930e1ec265567895a7a85baed8822eb.bindPopup(popup_c07f033b8da29f16a4621698dc8f71a5)
+        ;
+
+        
+    
+    
+            var circle_marker_4818c5cb72d8f68266191232bd3cfad2 = L.circleMarker(
+                [39.1155, 28.199],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.0, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_31ca47f34118c846f66f4408ac73a9b3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_60b0c08e1093d71d3a86088809fe36bf = $(`<div id="html_60b0c08e1093d71d3a86088809fe36bf" style="width: 100.0%; height: 100.0%;">14 km S of Sındırgı, Turkey<br>Mag:4.0<br>Depth:10.0 km</div>`)[0];
+                popup_31ca47f34118c846f66f4408ac73a9b3.setContent(html_60b0c08e1093d71d3a86088809fe36bf);
+            
+        
+
+        circle_marker_4818c5cb72d8f68266191232bd3cfad2.bindPopup(popup_31ca47f34118c846f66f4408ac73a9b3)
+        ;
+
+        
+    
+    
+            var circle_marker_09071c2dfdf433d51d9bfa6ca9aad3ce = L.circleMarker(
+                [39.2076, 28.112],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.8, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_08abd4e2424aa9922c75dd8ac9a97a18 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cc845ea8562e1307efdc5c875106240e = $(`<div id="html_cc845ea8562e1307efdc5c875106240e" style="width: 100.0%; height: 100.0%;">6 km WSW of Sındırgı, Turkey<br>Mag:4.4<br>Depth:10.0 km</div>`)[0];
+                popup_08abd4e2424aa9922c75dd8ac9a97a18.setContent(html_cc845ea8562e1307efdc5c875106240e);
+            
+        
+
+        circle_marker_09071c2dfdf433d51d9bfa6ca9aad3ce.bindPopup(popup_08abd4e2424aa9922c75dd8ac9a97a18)
+        ;
+
+        
+    
+    
+            var circle_marker_9b29caf8f51d4a522b82573332dc9043 = L.circleMarker(
+                [39.1541, 33.1999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.4, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_3812c6c99de524192dc3746fa1629abf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_facfa9be8781fddad6a9453d119c4826 = $(`<div id="html_facfa9be8781fddad6a9453d119c4826" style="width: 100.0%; height: 100.0%;">12 km ENE of Kulu, Turkey<br>Mag:4.7<br>Depth:10.0 km</div>`)[0];
+                popup_3812c6c99de524192dc3746fa1629abf.setContent(html_facfa9be8781fddad6a9453d119c4826);
+            
+        
+
+        circle_marker_9b29caf8f51d4a522b82573332dc9043.bindPopup(popup_3812c6c99de524192dc3746fa1629abf)
+        ;
+
+        
+    
+    
+            var circle_marker_73b3a0d2ec9222aa9deb6e959848e78b = L.circleMarker(
+                [39.1842, 28.1095],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.2, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_e9e91f2f1faabc42791bbf16e52d9bfd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4cbc02a761b944668b7259ac2a9a417e = $(`<div id="html_4cbc02a761b944668b7259ac2a9a417e" style="width: 100.0%; height: 100.0%;">8 km SW of Sındırgı, Turkey<br>Mag:5.1<br>Depth:10.0 km</div>`)[0];
+                popup_e9e91f2f1faabc42791bbf16e52d9bfd.setContent(html_4cbc02a761b944668b7259ac2a9a417e);
+            
+        
+
+        circle_marker_73b3a0d2ec9222aa9deb6e959848e78b.bindPopup(popup_e9e91f2f1faabc42791bbf16e52d9bfd)
+        ;
+
+        
+    
+    
+            var circle_marker_24b3582eb32adfd86a303c60efad8f21 = L.circleMarker(
+                [39.2293, 28.9698],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.2, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_64108e16d498b957e6207ae2428de593 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_88a2a3a5a5fa99b5a77dc983c4c72e8a = $(`<div id="html_88a2a3a5a5fa99b5a77dc983c4c72e8a" style="width: 100.0%; height: 100.0%;">15 km N of Simav, Turkey<br>Mag:4.1<br>Depth:10.0 km</div>`)[0];
+                popup_64108e16d498b957e6207ae2428de593.setContent(html_88a2a3a5a5fa99b5a77dc983c4c72e8a);
+            
+        
+
+        circle_marker_24b3582eb32adfd86a303c60efad8f21.bindPopup(popup_64108e16d498b957e6207ae2428de593)
+        ;
+
+        
+    
+    
+            var circle_marker_ef684dc10ad56488c31a16cf9785caed = L.circleMarker(
+                [38.0017, 38.4942],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.4, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_ee4113f2f4eebf1419a7fa99aba073d0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d1512c9c5a93f132656cb86140ca3a36 = $(`<div id="html_d1512c9c5a93f132656cb86140ca3a36" style="width: 100.0%; height: 100.0%;">11 km WSW of Sincik, Turkey<br>Mag:4.2<br>Depth:10.0 km</div>`)[0];
+                popup_ee4113f2f4eebf1419a7fa99aba073d0.setContent(html_d1512c9c5a93f132656cb86140ca3a36);
+            
+        
+
+        circle_marker_ef684dc10ad56488c31a16cf9785caed.bindPopup(popup_ee4113f2f4eebf1419a7fa99aba073d0)
+        ;
+
+        
+    
+    
+            var circle_marker_b465e39dd7e0fe434360ccf45adecdcc = L.circleMarker(
+                [39.1855, 28.1859],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.8, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_101524601a3f2ecb89183518b3871569 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9b5e5200a81c9d9b2a9f286eb4f508b5 = $(`<div id="html_9b5e5200a81c9d9b2a9f286eb4f508b5" style="width: 100.0%; height: 100.0%;">6 km S of Sındırgı, Turkey<br>Mag:4.4<br>Depth:9.955 km</div>`)[0];
+                popup_101524601a3f2ecb89183518b3871569.setContent(html_9b5e5200a81c9d9b2a9f286eb4f508b5);
+            
+        
+
+        circle_marker_b465e39dd7e0fe434360ccf45adecdcc.bindPopup(popup_101524601a3f2ecb89183518b3871569)
+        ;
+
+        
+    
+    
+            var circle_marker_e7254db15973934f0d26a3601165eb69 = L.circleMarker(
+                [39.2065, 28.1295],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.8, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_da63cb218ca61d5f635a49bcf983cbcb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1fb0bee7ceb98a06dcc740ff5b838528 = $(`<div id="html_1fb0bee7ceb98a06dcc740ff5b838528" style="width: 100.0%; height: 100.0%;">5 km SW of Sındırgı, Turkey<br>Mag:4.9<br>Depth:10.0 km</div>`)[0];
+                popup_da63cb218ca61d5f635a49bcf983cbcb.setContent(html_1fb0bee7ceb98a06dcc740ff5b838528);
+            
+        
+
+        circle_marker_e7254db15973934f0d26a3601165eb69.bindPopup(popup_da63cb218ca61d5f635a49bcf983cbcb)
+        ;
+
+        
+    
+    
+            var circle_marker_11b54799901add7c423dca06c64b3758 = L.circleMarker(
+                [39.1711, 28.2092],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.6, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_e0a8dbb6dda433aa8fc600cc11e7c163 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d16b30f88f01cca60a8786efe91e388a = $(`<div id="html_d16b30f88f01cca60a8786efe91e388a" style="width: 100.0%; height: 100.0%;">8 km SSE of Sındırgı, Turkey<br>Mag:4.3<br>Depth:10.0 km</div>`)[0];
+                popup_e0a8dbb6dda433aa8fc600cc11e7c163.setContent(html_d16b30f88f01cca60a8786efe91e388a);
+            
+        
+
+        circle_marker_11b54799901add7c423dca06c64b3758.bindPopup(popup_e0a8dbb6dda433aa8fc600cc11e7c163)
+        ;
+
+        
+    
+    
+            var circle_marker_e7702aea3285a1126e1ffb99b7641b8b = L.circleMarker(
+                [39.2176, 28.0863],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.4, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_1c44fdb3769a597c858bafaf6c1867ea = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a32960ebbcacb1322e9b136e2e6ee664 = $(`<div id="html_a32960ebbcacb1322e9b136e2e6ee664" style="width: 100.0%; height: 100.0%;">8 km WSW of Sındırgı, Turkey<br>Mag:4.2<br>Depth:10.0 km</div>`)[0];
+                popup_1c44fdb3769a597c858bafaf6c1867ea.setContent(html_a32960ebbcacb1322e9b136e2e6ee664);
+            
+        
+
+        circle_marker_e7702aea3285a1126e1ffb99b7641b8b.bindPopup(popup_1c44fdb3769a597c858bafaf6c1867ea)
+        ;
+
+        
+    
+    
+            var circle_marker_a0fe14294a5a7ed3811017ab9e19b5dd = L.circleMarker(
+                [39.1601, 28.1936],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.6, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_adccf11a16bc671cdf5da84cd5edddb3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ff4dfcedcd1e632889bcb2bccf5a856e = $(`<div id="html_ff4dfcedcd1e632889bcb2bccf5a856e" style="width: 100.0%; height: 100.0%;">9 km S of Sındırgı, Turkey<br>Mag:4.3<br>Depth:10.0 km</div>`)[0];
+                popup_adccf11a16bc671cdf5da84cd5edddb3.setContent(html_ff4dfcedcd1e632889bcb2bccf5a856e);
+            
+        
+
+        circle_marker_a0fe14294a5a7ed3811017ab9e19b5dd.bindPopup(popup_adccf11a16bc671cdf5da84cd5edddb3)
+        ;
+
+        
+    
+    
+            var circle_marker_d1d2de3b7980c90b5a4b40878568f538 = L.circleMarker(
+                [39.2226, 28.0825],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.8, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_634c805379582c1875525403e99fa4d0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b698ba1405225eb49a0759737699d030 = $(`<div id="html_b698ba1405225eb49a0759737699d030" style="width: 100.0%; height: 100.0%;">8 km WSW of Sındırgı, Turkey<br>Mag:4.4<br>Depth:14.818 km</div>`)[0];
+                popup_634c805379582c1875525403e99fa4d0.setContent(html_b698ba1405225eb49a0759737699d030);
+            
+        
+
+        circle_marker_d1d2de3b7980c90b5a4b40878568f538.bindPopup(popup_634c805379582c1875525403e99fa4d0)
+        ;
+
+        
+    
+    
+            var circle_marker_78eaac928db4d000709df03989472c33 = L.circleMarker(
+                [39.2095, 28.1422],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.6, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_c452dc264af92111c31e325e148780de = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b39072d450f302baa762ec3fb5a35455 = $(`<div id="html_b39072d450f302baa762ec3fb5a35455" style="width: 100.0%; height: 100.0%;">4 km SW of Sındırgı, Turkey<br>Mag:4.8<br>Depth:13.641 km</div>`)[0];
+                popup_c452dc264af92111c31e325e148780de.setContent(html_b39072d450f302baa762ec3fb5a35455);
+            
+        
+
+        circle_marker_78eaac928db4d000709df03989472c33.bindPopup(popup_c452dc264af92111c31e325e148780de)
+        ;
+
+        
+    
+    
+            var circle_marker_70911ff03c1f3ca45e3c3163e4f55df7 = L.circleMarker(
+                [39.1994, 28.2216],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.4, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_060b5baa5dd9b5212f0a563a9bf92ab8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8953a4532ded592a34c90ecbb661914c = $(`<div id="html_8953a4532ded592a34c90ecbb661914c" style="width: 100.0%; height: 100.0%;">5 km SE of Sındırgı, Turkey<br>Mag:4.2<br>Depth:10.0 km</div>`)[0];
+                popup_060b5baa5dd9b5212f0a563a9bf92ab8.setContent(html_8953a4532ded592a34c90ecbb661914c);
+            
+        
+
+        circle_marker_70911ff03c1f3ca45e3c3163e4f55df7.bindPopup(popup_060b5baa5dd9b5212f0a563a9bf92ab8)
+        ;
+
+        
+    
+    
+            var circle_marker_a5d6bdcc97f904d043bb7559f45d5eb7 = L.circleMarker(
+                [39.2526, 28.1929],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.4, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_05aa6acb0c68dfc0fac7a5cf1d37fa6d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_343c0f414d80eb256366a24fdaa28e93 = $(`<div id="html_343c0f414d80eb256366a24fdaa28e93" style="width: 100.0%; height: 100.0%;">1 km NE of Sındırgı, Turkey<br>Mag:4.2<br>Depth:11.487 km</div>`)[0];
+                popup_05aa6acb0c68dfc0fac7a5cf1d37fa6d.setContent(html_343c0f414d80eb256366a24fdaa28e93);
+            
+        
+
+        circle_marker_a5d6bdcc97f904d043bb7559f45d5eb7.bindPopup(popup_05aa6acb0c68dfc0fac7a5cf1d37fa6d)
+        ;
+
+        
+    
+    
+            var circle_marker_3b9f8dc60d85092f2bf5a076c1598a53 = L.circleMarker(
+                [39.1358, 41.0169],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.6, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_8a93786f509ac4f4e94417cdca07417d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7020a8d7e88727afdbd4318f4eb9a9c2 = $(`<div id="html_7020a8d7e88727afdbd4318f4eb9a9c2" style="width: 100.0%; height: 100.0%;">17 km S of Karlıova, Turkey<br>Mag:4.3<br>Depth:10.0 km</div>`)[0];
+                popup_8a93786f509ac4f4e94417cdca07417d.setContent(html_7020a8d7e88727afdbd4318f4eb9a9c2);
+            
+        
+
+        circle_marker_3b9f8dc60d85092f2bf5a076c1598a53.bindPopup(popup_8a93786f509ac4f4e94417cdca07417d)
+        ;
+
+        
+    
+    
+            var circle_marker_d282f68e213da92f009e6348da9eacb9 = L.circleMarker(
+                [40.1, 36.0262],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.8, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_66732628621098f41838036333dc9692 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_de9b3ddc24ec508756227207c7dceb0d = $(`<div id="html_de9b3ddc24ec508756227207c7dceb0d" style="width: 100.0%; height: 100.0%;">12 km NNW of Sulusaray, Turkey<br>Mag:4.4<br>Depth:10.0 km</div>`)[0];
+                popup_66732628621098f41838036333dc9692.setContent(html_de9b3ddc24ec508756227207c7dceb0d);
+            
+        
+
+        circle_marker_d282f68e213da92f009e6348da9eacb9.bindPopup(popup_66732628621098f41838036333dc9692)
+        ;
+
+        
+    
+    
+            var circle_marker_f71f5182634d35825044936eebd44ea0 = L.circleMarker(
+                [39.1807, 28.1691],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.6, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_24cb4b234bc5f5417a12057d7c0c478d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0739449d5f47998c5d8430b13c13e87e = $(`<div id="html_0739449d5f47998c5d8430b13c13e87e" style="width: 100.0%; height: 100.0%;">6 km S of Sındırgı, Turkey<br>Mag:4.3<br>Depth:10.0 km</div>`)[0];
+                popup_24cb4b234bc5f5417a12057d7c0c478d.setContent(html_0739449d5f47998c5d8430b13c13e87e);
+            
+        
+
+        circle_marker_f71f5182634d35825044936eebd44ea0.bindPopup(popup_24cb4b234bc5f5417a12057d7c0c478d)
+        ;
+
+        
+    
+    
+            var circle_marker_1ef5594813024f8ed2c93278f559b112 = L.circleMarker(
+                [39.262, 27.9697],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.2, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_a2836a6f81e69964127e1dd7c7bea2bc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2134eb74d08cc0d97f26b96d62d00b78 = $(`<div id="html_2134eb74d08cc0d97f26b96d62d00b78" style="width: 100.0%; height: 100.0%;">18 km W of Sındırgı, Turkey<br>Mag:4.6<br>Depth:10.0 km</div>`)[0];
+                popup_a2836a6f81e69964127e1dd7c7bea2bc.setContent(html_2134eb74d08cc0d97f26b96d62d00b78);
+            
+        
+
+        circle_marker_1ef5594813024f8ed2c93278f559b112.bindPopup(popup_a2836a6f81e69964127e1dd7c7bea2bc)
+        ;
+
+        
+    
+    
+            var circle_marker_dbc802acc4c4c78fe4638067eabfa65b = L.circleMarker(
+                [39.2334, 27.9322],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.2, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_4c866a2720d214cc220aa00b34ee43a1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f94b4b208816924fac9964921a085e35 = $(`<div id="html_f94b4b208816924fac9964921a085e35" style="width: 100.0%; height: 100.0%;">21 km W of Sındırgı, Turkey<br>Mag:4.1<br>Depth:10.0 km</div>`)[0];
+                popup_4c866a2720d214cc220aa00b34ee43a1.setContent(html_f94b4b208816924fac9964921a085e35);
+            
+        
+
+        circle_marker_dbc802acc4c4c78fe4638067eabfa65b.bindPopup(popup_4c866a2720d214cc220aa00b34ee43a1)
+        ;
+
+        
+    
+    
+            var circle_marker_236e563ac2c39e9879a6a50f7ebec0de = L.circleMarker(
+                [39.1351, 28.0362],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.4, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_0b9474e9ab23ec3f977e91f57276b0a5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5afd6b931f3899740a9339b503ee25b4 = $(`<div id="html_5afd6b931f3899740a9339b503ee25b4" style="width: 100.0%; height: 100.0%;">17 km SW of Sındırgı, Turkey<br>Mag:4.2<br>Depth:14.969 km</div>`)[0];
+                popup_0b9474e9ab23ec3f977e91f57276b0a5.setContent(html_5afd6b931f3899740a9339b503ee25b4);
+            
+        
+
+        circle_marker_236e563ac2c39e9879a6a50f7ebec0de.bindPopup(popup_0b9474e9ab23ec3f977e91f57276b0a5)
+        ;
+
+        
+    
+    
+            var circle_marker_5eaaaef59cdc3ea87403428b1c6b60da = L.circleMarker(
+                [39.0921, 28.0137],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.8, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_e5070a8d3d4780e6ae3735c45ec0e33b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1481e69b079e0082d9b698410ba281c0 = $(`<div id="html_1481e69b079e0082d9b698410ba281c0" style="width: 100.0%; height: 100.0%;">21 km SW of Sındırgı, Turkey<br>Mag:4.4<br>Depth:10.0 km</div>`)[0];
+                popup_e5070a8d3d4780e6ae3735c45ec0e33b.setContent(html_1481e69b079e0082d9b698410ba281c0);
+            
+        
+
+        circle_marker_5eaaaef59cdc3ea87403428b1c6b60da.bindPopup(popup_e5070a8d3d4780e6ae3735c45ec0e33b)
+        ;
+
+        
+    
+    
+            var circle_marker_95450d7a0c4eaed1448986cd471af450 = L.circleMarker(
+                [39.1454, 28.1083],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.0, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_26be689649a0e5c023806774dfece0b4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c315bc5e2dd0269a446e4374f07fd702 = $(`<div id="html_c315bc5e2dd0269a446e4374f07fd702" style="width: 100.0%; height: 100.0%;">12 km SSW of Sındırgı, Turkey<br>Mag:4.0<br>Depth:17.179 km</div>`)[0];
+                popup_26be689649a0e5c023806774dfece0b4.setContent(html_c315bc5e2dd0269a446e4374f07fd702);
+            
+        
+
+        circle_marker_95450d7a0c4eaed1448986cd471af450.bindPopup(popup_26be689649a0e5c023806774dfece0b4)
+        ;
+
+        
+    
+    
+            var circle_marker_be07e9b41092bbbf16faf39972fe4fdb = L.circleMarker(
+                [39.2323, 28.126],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.8, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_3a886400ac0697708ac72f75a8f71d10 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fd821a4c0258269f66a761708166ea7c = $(`<div id="html_fd821a4c0258269f66a761708166ea7c" style="width: 100.0%; height: 100.0%;">4 km WSW of Sındırgı, Turkey<br>Mag:4.4<br>Depth:10.0 km</div>`)[0];
+                popup_3a886400ac0697708ac72f75a8f71d10.setContent(html_fd821a4c0258269f66a761708166ea7c);
+            
+        
+
+        circle_marker_be07e9b41092bbbf16faf39972fe4fdb.bindPopup(popup_3a886400ac0697708ac72f75a8f71d10)
+        ;
+
+        
+    
+    
+            var circle_marker_c029bd0abbf2134fd608d50446b6b412 = L.circleMarker(
+                [39.2265, 28.1034],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.4, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_344914f36c8fa850070b634437de6dda = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_268cb5330613f5c42a9b4f4b1ee3b800 = $(`<div id="html_268cb5330613f5c42a9b4f4b1ee3b800" style="width: 100.0%; height: 100.0%;">6 km WSW of Sındırgı, Turkey<br>Mag:4.2<br>Depth:10.0 km</div>`)[0];
+                popup_344914f36c8fa850070b634437de6dda.setContent(html_268cb5330613f5c42a9b4f4b1ee3b800);
+            
+        
+
+        circle_marker_c029bd0abbf2134fd608d50446b6b412.bindPopup(popup_344914f36c8fa850070b634437de6dda)
+        ;
+
+        
+    
+    
+            var circle_marker_a78bf3fb4ee0faa33472d4417483ea81 = L.circleMarker(
+                [39.2158, 28.1138],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.2, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_310f0f44316fcc0f15dbaf546d8249ff = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a59991639631a500212a3fa426b7e3c2 = $(`<div id="html_a59991639631a500212a3fa426b7e3c2" style="width: 100.0%; height: 100.0%;">6 km WSW of Sındırgı, Turkey<br>Mag:4.1<br>Depth:10.0 km</div>`)[0];
+                popup_310f0f44316fcc0f15dbaf546d8249ff.setContent(html_a59991639631a500212a3fa426b7e3c2);
+            
+        
+
+        circle_marker_a78bf3fb4ee0faa33472d4417483ea81.bindPopup(popup_310f0f44316fcc0f15dbaf546d8249ff)
+        ;
+
+        
+    
+    
+            var circle_marker_3e330955eab8f842a7fb291ae11a1405 = L.circleMarker(
+                [39.3709, 28.0168],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.2, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_cd8cba510fd0ac80aef03f489c876acf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c12bb2357565c275415a5db07e350329 = $(`<div id="html_c12bb2357565c275415a5db07e350329" style="width: 100.0%; height: 100.0%;">10 km WSW of Bigadiç, Turkey<br>Mag:6.1<br>Depth:10.0 km</div>`)[0];
+                popup_cd8cba510fd0ac80aef03f489c876acf.setContent(html_c12bb2357565c275415a5db07e350329);
+            
+        
+
+        circle_marker_3e330955eab8f842a7fb291ae11a1405.bindPopup(popup_cd8cba510fd0ac80aef03f489c876acf)
+        ;
+
+        
+    
+    
+            var circle_marker_37a21d99b894b5874371f5bd38aec155 = L.circleMarker(
+                [40.7746, 28.3086],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.6, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_068865c29972b32d42e5f30e71dbc144 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3ce636c4ff939553374d0fd305a4a93e = $(`<div id="html_3ce636c4ff939553374d0fd305a4a93e" style="width: 100.0%; height: 100.0%;">30 km SSW of Kumburgaz, Turkey<br>Mag:3.8<br>Depth:10.0 km</div>`)[0];
+                popup_068865c29972b32d42e5f30e71dbc144.setContent(html_3ce636c4ff939553374d0fd305a4a93e);
+            
+        
+
+        circle_marker_37a21d99b894b5874371f5bd38aec155.bindPopup(popup_068865c29972b32d42e5f30e71dbc144)
+        ;
+
+        
+    
+    
+            var circle_marker_f28af5cd7a308cc9e6ea2f75b79f70c9 = L.circleMarker(
+                [39.7227, 41.858],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.4, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_6713fa17ab7a8a8adf93f42c27b1bf1a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_aeec0ca1bd23df56d738db2866da8cd9 = $(`<div id="html_aeec0ca1bd23df56d738db2866da8cd9" style="width: 100.0%; height: 100.0%;">24 km W of Karayazı, Turkey<br>Mag:4.2<br>Depth:10.0 km</div>`)[0];
+                popup_6713fa17ab7a8a8adf93f42c27b1bf1a.setContent(html_aeec0ca1bd23df56d738db2866da8cd9);
+            
+        
+
+        circle_marker_f28af5cd7a308cc9e6ea2f75b79f70c9.bindPopup(popup_6713fa17ab7a8a8adf93f42c27b1bf1a)
+        ;
+
+        
+    
+    
+            var circle_marker_428e51b6b7d651f1c9b010a6653c5e2c = L.circleMarker(
+                [40.4645, 29.1965],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.4, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_f2d3e9a564a5879689a80117700e5f4d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_396c12867a7b2957f6bec0dd886c81c2 = $(`<div id="html_396c12867a7b2957f6bec0dd886c81c2" style="width: 100.0%; height: 100.0%;">4 km NE of Gemlik, Turkey<br>Mag:4.2<br>Depth:10.0 km</div>`)[0];
+                popup_f2d3e9a564a5879689a80117700e5f4d.setContent(html_396c12867a7b2957f6bec0dd886c81c2);
+            
+        
+
+        circle_marker_428e51b6b7d651f1c9b010a6653c5e2c.bindPopup(popup_f2d3e9a564a5879689a80117700e5f4d)
+        ;
+
+        
+    
+    
+            var circle_marker_88475822ef1bc4d92bc03d70b5ecd824 = L.circleMarker(
+                [40.3824, 29.1837],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.0, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_7f0b3b7ac9fb754d2f0940db1844d1bc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_752bbf62216308893ebec1c616fdcfdc = $(`<div id="html_752bbf62216308893ebec1c616fdcfdc" style="width: 100.0%; height: 100.0%;">3 km S of Umurbey, Turkey<br>Mag:4.0<br>Depth:10.0 km</div>`)[0];
+                popup_7f0b3b7ac9fb754d2f0940db1844d1bc.setContent(html_752bbf62216308893ebec1c616fdcfdc);
+            
+        
+
+        circle_marker_88475822ef1bc4d92bc03d70b5ecd824.bindPopup(popup_7f0b3b7ac9fb754d2f0940db1844d1bc)
+        ;
+
+        
+    
+    
+            var circle_marker_a2fc222706846f82369f1e5b50507d52 = L.circleMarker(
+                [38.0117, 36.1273],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.8, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_3e75b95ae4aeb9abe2b08934681c29a2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7206765e8510c3dd0db8e55f38966f3b = $(`<div id="html_7206765e8510c3dd0db8e55f38966f3b" style="width: 100.0%; height: 100.0%;">4 km NE of Saimbeyli, Turkey<br>Mag:4.4<br>Depth:7.925 km</div>`)[0];
+                popup_3e75b95ae4aeb9abe2b08934681c29a2.setContent(html_7206765e8510c3dd0db8e55f38966f3b);
+            
+        
+
+        circle_marker_a2fc222706846f82369f1e5b50507d52.bindPopup(popup_3e75b95ae4aeb9abe2b08934681c29a2)
+        ;
+
+        
+    
+    
+            var circle_marker_d253690187a0d9aa557fe34c762ada4b = L.circleMarker(
+                [38.3839, 40.2941],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.4, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_2ab2a244de1952a53e6561d50115ca1a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5d7be32bfa9d832215f66197a3f07d06 = $(`<div id="html_5d7be32bfa9d832215f66197a3f07d06" style="width: 100.0%; height: 100.0%;">8 km WSW of Hani, Turkey<br>Mag:4.2<br>Depth:11.981 km</div>`)[0];
+                popup_2ab2a244de1952a53e6561d50115ca1a.setContent(html_5d7be32bfa9d832215f66197a3f07d06);
+            
+        
+
+        circle_marker_d253690187a0d9aa557fe34c762ada4b.bindPopup(popup_2ab2a244de1952a53e6561d50115ca1a)
+        ;
+
+        
+    
+    
+            var circle_marker_3e183aebb4ec961af8158ebd5607ee18 = L.circleMarker(
+                [39.2844, 28.9814],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.4, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_1f8c4524ea2bf148983ee0ecd3696faf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5c352692fd3bda86bd70a948dec5b5c4 = $(`<div id="html_5c352692fd3bda86bd70a948dec5b5c4" style="width: 100.0%; height: 100.0%;">21 km N of Simav, Turkey<br>Mag:4.2<br>Depth:10.0 km</div>`)[0];
+                popup_1f8c4524ea2bf148983ee0ecd3696faf.setContent(html_5c352692fd3bda86bd70a948dec5b5c4);
+            
+        
+
+        circle_marker_3e183aebb4ec961af8158ebd5607ee18.bindPopup(popup_1f8c4524ea2bf148983ee0ecd3696faf)
+        ;
+
+        
+    
+    
+            var circle_marker_f126b6c75145d8704d4e62effffc746c = L.circleMarker(
+                [35.8102, 32.1868],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.6, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_df4f278242ba05a2edd76dff25253004 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b939f77111e7e9145fa49ae93539845c = $(`<div id="html_b939f77111e7e9145fa49ae93539845c" style="width: 100.0%; height: 100.0%;">52 km SSW of Gazipaşa, Turkey<br>Mag:4.3<br>Depth:78.055 km</div>`)[0];
+                popup_df4f278242ba05a2edd76dff25253004.setContent(html_b939f77111e7e9145fa49ae93539845c);
+            
+        
+
+        circle_marker_f126b6c75145d8704d4e62effffc746c.bindPopup(popup_df4f278242ba05a2edd76dff25253004)
+        ;
+
+        
+    
+    
+            var circle_marker_d6cdf86a517129cf7b4a3170efd4e369 = L.circleMarker(
+                [36.7258, 28.1891],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.6, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_5dbe482f9d088fffbd65b826b65d28e1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_68075fe989e4c7963819f6e6fc5c7aee = $(`<div id="html_68075fe989e4c7963819f6e6fc5c7aee" style="width: 100.0%; height: 100.0%;">8 km SSW of İçmeler, Turkey<br>Mag:5.8<br>Depth:72.0 km</div>`)[0];
+                popup_5dbe482f9d088fffbd65b826b65d28e1.setContent(html_68075fe989e4c7963819f6e6fc5c7aee);
+            
+        
+
+        circle_marker_d6cdf86a517129cf7b4a3170efd4e369.bindPopup(popup_5dbe482f9d088fffbd65b826b65d28e1)
+        ;
+
+        
+    
+    
+            var circle_marker_f5b3a4318c5248aa5d3ad59b0606d7ea = L.circleMarker(
+                [36.489, 31.6761],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.6, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_7e7b99f4ea10f0f64c3dd08b56cbd1b0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bce7ae90d7b52042ac481d89cdc7bf3a = $(`<div id="html_bce7ae90d7b52042ac481d89cdc7bf3a" style="width: 100.0%; height: 100.0%;">17 km SSW of Avsallar, Turkey<br>Mag:3.8<br>Depth:39.036 km</div>`)[0];
+                popup_7e7b99f4ea10f0f64c3dd08b56cbd1b0.setContent(html_bce7ae90d7b52042ac481d89cdc7bf3a);
+            
+        
+
+        circle_marker_f5b3a4318c5248aa5d3ad59b0606d7ea.bindPopup(popup_7e7b99f4ea10f0f64c3dd08b56cbd1b0)
+        ;
+
+        
+    
+    
+            var circle_marker_e2c67702d613642681d7e75ee7b06262 = L.circleMarker(
+                [39.2265, 40.2787],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.6, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_3306ac4ecea8153dcefa422a785b53fc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ee51c5089317b733a125f76d964fd65a = $(`<div id="html_ee51c5089317b733a125f76d964fd65a" style="width: 100.0%; height: 100.0%;">18 km E of Yayladere, Turkey<br>Mag:4.3<br>Depth:10.0 km</div>`)[0];
+                popup_3306ac4ecea8153dcefa422a785b53fc.setContent(html_ee51c5089317b733a125f76d964fd65a);
+            
+        
+
+        circle_marker_e2c67702d613642681d7e75ee7b06262.bindPopup(popup_3306ac4ecea8153dcefa422a785b53fc)
+        ;
+
+        
+    
+    
+            var circle_marker_d7a1f7cbe145d6320b46d519414a6834 = L.circleMarker(
+                [36.0355, 31.122],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.2, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_ee633ca714f336da5376efe85f335598 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_002b65da9a50e07d01b46f0690ed6562 = $(`<div id="html_002b65da9a50e07d01b46f0690ed6562" style="width: 100.0%; height: 100.0%;">74 km SE of Tekirova, Turkey<br>Mag:4.1<br>Depth:65.244 km</div>`)[0];
+                popup_ee633ca714f336da5376efe85f335598.setContent(html_002b65da9a50e07d01b46f0690ed6562);
+            
+        
+
+        circle_marker_d7a1f7cbe145d6320b46d519414a6834.bindPopup(popup_ee633ca714f336da5376efe85f335598)
+        ;
+
+        
+    
+    
+            var circle_marker_1775cae4176679a741fe8c7668d97cff = L.circleMarker(
+                [39.314, 40.3128],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.2, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_a197bc194e765c81570233e5a20403eb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_01bd3b35cadcb650f72f78d07b3c8779 = $(`<div id="html_01bd3b35cadcb650f72f78d07b3c8779" style="width: 100.0%; height: 100.0%;">23 km ENE of Yayladere, Turkey<br>Mag:4.1<br>Depth:10.0 km</div>`)[0];
+                popup_a197bc194e765c81570233e5a20403eb.setContent(html_01bd3b35cadcb650f72f78d07b3c8779);
+            
+        
+
+        circle_marker_1775cae4176679a741fe8c7668d97cff.bindPopup(popup_a197bc194e765c81570233e5a20403eb)
+        ;
+
+        
+    
+    
+            var circle_marker_aae243c061304850f17cc2b4a53a4c08 = L.circleMarker(
+                [39.1296, 33.238],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.0, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_9af31bf93033bd3e80957bae421ff7fd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_30d294c3bdaaee1688f61eba7bc71871 = $(`<div id="html_30d294c3bdaaee1688f61eba7bc71871" style="width: 100.0%; height: 100.0%;">14 km ENE of Kulu, Turkey<br>Mag:5.0<br>Depth:10.0 km</div>`)[0];
+                popup_9af31bf93033bd3e80957bae421ff7fd.setContent(html_30d294c3bdaaee1688f61eba7bc71871);
+            
+        
+
+        circle_marker_aae243c061304850f17cc2b4a53a4c08.bindPopup(popup_9af31bf93033bd3e80957bae421ff7fd)
+        ;
+
+        
+    
+    
+            var circle_marker_8884938d7c42944e5867f027bddf9c79 = L.circleMarker(
+                [40.9474, 35.1315],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.0, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_c21c03c1e0952549a693382a8f438b05 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fe694972b8d609b346554cdb36b40b1e = $(`<div id="html_fe694972b8d609b346554cdb36b40b1e" style="width: 100.0%; height: 100.0%;">10 km NW of Gümüşhacıköy, Turkey<br>Mag:4.5<br>Depth:10.0 km</div>`)[0];
+                popup_c21c03c1e0952549a693382a8f438b05.setContent(html_fe694972b8d609b346554cdb36b40b1e);
+            
+        
+
+        circle_marker_8884938d7c42944e5867f027bddf9c79.bindPopup(popup_c21c03c1e0952549a693382a8f438b05)
+        ;
+
+        
+    
+    
+            var circle_marker_4af410402f85fa76cf2619139a619c1a = L.circleMarker(
+                [40.9078, 35.1689],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.6, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_d4961c504e50e7d9ed7de04b25d6780b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_622fa7b719a85ae2f56debe2ec6ce237 = $(`<div id="html_622fa7b719a85ae2f56debe2ec6ce237" style="width: 100.0%; height: 100.0%;">5 km NW of Gümüşhacıköy, Turkey<br>Mag:4.3<br>Depth:10.0 km</div>`)[0];
+                popup_d4961c504e50e7d9ed7de04b25d6780b.setContent(html_622fa7b719a85ae2f56debe2ec6ce237);
+            
+        
+
+        circle_marker_4af410402f85fa76cf2619139a619c1a.bindPopup(popup_d4961c504e50e7d9ed7de04b25d6780b)
+        ;
+
+        
+    
+    
+            var circle_marker_42aeb39ded60c53d2fe87ec99dddb05c = L.circleMarker(
+                [39.2694, 28.9966],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.6, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_c05e0ea11b964043e87cc18ffbc60177 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1aaac724390bdce072246df199650e26 = $(`<div id="html_1aaac724390bdce072246df199650e26" style="width: 100.0%; height: 100.0%;">20 km N of Simav, Turkey<br>Mag:3.8<br>Depth:9.926 km</div>`)[0];
+                popup_c05e0ea11b964043e87cc18ffbc60177.setContent(html_1aaac724390bdce072246df199650e26);
+            
+        
+
+        circle_marker_42aeb39ded60c53d2fe87ec99dddb05c.bindPopup(popup_c05e0ea11b964043e87cc18ffbc60177)
+        ;
+
+        
+    
+    
+            var circle_marker_64a54773e1d2917941ff2d4edf104bc6 = L.circleMarker(
+                [40.8256, 28.2152],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.4, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_aa804d7d64db7d7256fea024c8d546a8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2457de3ff91e49ccd1ce0618295fdfda = $(`<div id="html_2457de3ff91e49ccd1ce0618295fdfda" style="width: 100.0%; height: 100.0%;">27 km SE of Marmara Ereğlisi, Turkey<br>Mag:3.7<br>Depth:10.0 km</div>`)[0];
+                popup_aa804d7d64db7d7256fea024c8d546a8.setContent(html_2457de3ff91e49ccd1ce0618295fdfda);
+            
+        
+
+        circle_marker_64a54773e1d2917941ff2d4edf104bc6.bindPopup(popup_aa804d7d64db7d7256fea024c8d546a8)
+        ;
+
+        
+    
+    
+            var circle_marker_a5b5fb67184468d9867d6a87b7f808d7 = L.circleMarker(
+                [37.0915, 30.8721],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.0, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_623a375a22f140d18ab879405b3b8835 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cc8775ff220cce8646bd1e81ee7fa575 = $(`<div id="html_cc8775ff220cce8646bd1e81ee7fa575" style="width: 100.0%; height: 100.0%;">24 km NNE of Muratpaşa, Turkey<br>Mag:4.0<br>Depth:121.785 km</div>`)[0];
+                popup_623a375a22f140d18ab879405b3b8835.setContent(html_cc8775ff220cce8646bd1e81ee7fa575);
+            
+        
+
+        circle_marker_a5b5fb67184468d9867d6a87b7f808d7.bindPopup(popup_623a375a22f140d18ab879405b3b8835)
+        ;
+
+        
+    
+    
+            var circle_marker_b1a72456a950c27054d66c14c2275e60 = L.circleMarker(
+                [36.9176, 27.5577],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.2, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_54431507b92d3cbf5adcf5c797edf7ed = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6d0ab930c85bd5751f372f6b156db910 = $(`<div id="html_6d0ab930c85bd5751f372f6b156db910" style="width: 100.0%; height: 100.0%;">17 km SE of Bodrum, Turkey<br>Mag:4.1<br>Depth:18.669 km</div>`)[0];
+                popup_54431507b92d3cbf5adcf5c797edf7ed.setContent(html_6d0ab930c85bd5751f372f6b156db910);
+            
+        
+
+        circle_marker_b1a72456a950c27054d66c14c2275e60.bindPopup(popup_54431507b92d3cbf5adcf5c797edf7ed)
+        ;
+
+        
+    
+    
+            var circle_marker_f8b5b9494edbb6bf0c485d9a33045f1d = L.circleMarker(
+                [38.3165, 38.9257],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.4, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_b870413eabbeac890e0ff6f6c7a59867 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_24451707632a04335ba958673782f75b = $(`<div id="html_24451707632a04335ba958673782f75b" style="width: 100.0%; height: 100.0%;">9 km W of Doğanyol, Turkey<br>Mag:4.7<br>Depth:11.847 km</div>`)[0];
+                popup_b870413eabbeac890e0ff6f6c7a59867.setContent(html_24451707632a04335ba958673782f75b);
+            
+        
+
+        circle_marker_f8b5b9494edbb6bf0c485d9a33045f1d.bindPopup(popup_b870413eabbeac890e0ff6f6c7a59867)
+        ;
+
+        
+    
+    
+            var circle_marker_60274d59cf1b1c5a3d3767467e3af1ea = L.circleMarker(
+                [40.8537, 28.4298],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.6, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_2a992372a5015fb8d2c6855eca844959 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7e46839e5f572f6a016033c1b7eb086c = $(`<div id="html_7e46839e5f572f6a016033c1b7eb086c" style="width: 100.0%; height: 100.0%;">19 km SSW of Kumburgaz, Turkey<br>Mag:4.3<br>Depth:10.0 km</div>`)[0];
+                popup_2a992372a5015fb8d2c6855eca844959.setContent(html_7e46839e5f572f6a016033c1b7eb086c);
+            
+        
+
+        circle_marker_60274d59cf1b1c5a3d3767467e3af1ea.bindPopup(popup_2a992372a5015fb8d2c6855eca844959)
+        ;
+
+        
+    
+    
+            var circle_marker_a33a1cb37effd1b32c048cc74a2f66c1 = L.circleMarker(
+                [39.2734, 28.9731],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.2, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_66aab761f63cccbc2dd44cae6876af12 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d9179fce906d46509a1adecb269dac51 = $(`<div id="html_d9179fce906d46509a1adecb269dac51" style="width: 100.0%; height: 100.0%;">20 km N of Simav, Turkey<br>Mag:4.6<br>Depth:10.0 km</div>`)[0];
+                popup_66aab761f63cccbc2dd44cae6876af12.setContent(html_d9179fce906d46509a1adecb269dac51);
+            
+        
+
+        circle_marker_a33a1cb37effd1b32c048cc74a2f66c1.bindPopup(popup_66aab761f63cccbc2dd44cae6876af12)
+        ;
+
+        
+    
+    
+            var circle_marker_863598e5aa57e864e8cc6fed7af2892a = L.circleMarker(
+                [39.3466, 28.9184],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.8, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_efa181862c76649b295db61c1c419c96 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_be9e6187a6f7fb6e437558793fd5526b = $(`<div id="html_be9e6187a6f7fb6e437558793fd5526b" style="width: 100.0%; height: 100.0%;">29 km N of Simav, Turkey<br>Mag:4.4<br>Depth:10.0 km</div>`)[0];
+                popup_efa181862c76649b295db61c1c419c96.setContent(html_be9e6187a6f7fb6e437558793fd5526b);
+            
+        
+
+        circle_marker_863598e5aa57e864e8cc6fed7af2892a.bindPopup(popup_efa181862c76649b295db61c1c419c96)
+        ;
+
+        
+    
+    
+            var circle_marker_a4fabd3d52dc74d9d7a99df7e0425e89 = L.circleMarker(
+                [40.8489, 28.2741],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.8, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_0bc265c506774ab913ee21596e43cc4b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5f52976804be6487c9b853ba5a0c9f21 = $(`<div id="html_5f52976804be6487c9b853ba5a0c9f21" style="width: 100.0%; height: 100.0%;">24 km SSW of Selimpaşa, Turkey<br>Mag:4.9<br>Depth:10.0 km</div>`)[0];
+                popup_0bc265c506774ab913ee21596e43cc4b.setContent(html_5f52976804be6487c9b853ba5a0c9f21);
+            
+        
+
+        circle_marker_a4fabd3d52dc74d9d7a99df7e0425e89.bindPopup(popup_0bc265c506774ab913ee21596e43cc4b)
+        ;
+
+        
+    
+    
+            var circle_marker_472f3b903e390b4394da6854eae99f80 = L.circleMarker(
+                [40.8719, 28.2722],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.0, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_00600bf157f8a7c8dc6b9b4d35ab7af6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_967e3a614592ebafbbaa62ae7e30db97 = $(`<div id="html_967e3a614592ebafbbaa62ae7e30db97" style="width: 100.0%; height: 100.0%;">21 km SSW of Selimpaşa, Turkey<br>Mag:4.0<br>Depth:10.0 km</div>`)[0];
+                popup_00600bf157f8a7c8dc6b9b4d35ab7af6.setContent(html_967e3a614592ebafbbaa62ae7e30db97);
+            
+        
+
+        circle_marker_472f3b903e390b4394da6854eae99f80.bindPopup(popup_00600bf157f8a7c8dc6b9b4d35ab7af6)
+        ;
+
+        
+    
+    
+            var circle_marker_27ebe58980e3ddbc309d9a68406bbf41 = L.circleMarker(
+                [40.7814, 28.3191],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.6, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_83e44b9cd0d99d8fa31d70ec4ae7f7e0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c2956ca18648cda7cc8f259c813991ab = $(`<div id="html_c2956ca18648cda7cc8f259c813991ab" style="width: 100.0%; height: 100.0%;">29 km SSW of Kumburgaz, Turkey<br>Mag:4.3<br>Depth:10.0 km</div>`)[0];
+                popup_83e44b9cd0d99d8fa31d70ec4ae7f7e0.setContent(html_c2956ca18648cda7cc8f259c813991ab);
+            
+        
+
+        circle_marker_27ebe58980e3ddbc309d9a68406bbf41.bindPopup(popup_83e44b9cd0d99d8fa31d70ec4ae7f7e0)
+        ;
+
+        
+    
+    
+            var circle_marker_ebb1385ac4c1f1a7bf948e335ef6a2c7 = L.circleMarker(
+                [40.8888, 28.4829],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.0, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_7482314f4abbb7fbb04bd5e842ede792 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fcab4988c0bc0fc69fdbd697f8fa1f91 = $(`<div id="html_fcab4988c0bc0fc69fdbd697f8fa1f91" style="width: 100.0%; height: 100.0%;">14 km S of Kumburgaz, Turkey<br>Mag:5.0<br>Depth:10.0 km</div>`)[0];
+                popup_7482314f4abbb7fbb04bd5e842ede792.setContent(html_fcab4988c0bc0fc69fdbd697f8fa1f91);
+            
+        
+
+        circle_marker_ebb1385ac4c1f1a7bf948e335ef6a2c7.bindPopup(popup_7482314f4abbb7fbb04bd5e842ede792)
+        ;
+
+        
+    
+    
+            var circle_marker_c68b7e61bcc8f37e1922224ff11f1aa8 = L.circleMarker(
+                [40.8412, 28.4987],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.0, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_4ccc864909749becd8f0eaca0f763f91 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d0a2d8016691d15c6af14efdc96cf2f4 = $(`<div id="html_d0a2d8016691d15c6af14efdc96cf2f4" style="width: 100.0%; height: 100.0%;">19 km SSW of Gürpınar, Turkey<br>Mag:4.5<br>Depth:10.0 km</div>`)[0];
+                popup_4ccc864909749becd8f0eaca0f763f91.setContent(html_d0a2d8016691d15c6af14efdc96cf2f4);
+            
+        
+
+        circle_marker_c68b7e61bcc8f37e1922224ff11f1aa8.bindPopup(popup_4ccc864909749becd8f0eaca0f763f91)
+        ;
+
+        
+    
+    
+            var circle_marker_392ea0a77a387b7ef2345b9de1dbb364 = L.circleMarker(
+                [40.8471, 28.2332],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.0, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_fbfe0c0f954cc6baf49c61bbd91a2245 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_354550c03fe71240e9c1ec81eefe005b = $(`<div id="html_354550c03fe71240e9c1ec81eefe005b" style="width: 100.0%; height: 100.0%;">25 km S of Silivri, Turkey<br>Mag:4.5<br>Depth:10.0 km</div>`)[0];
+                popup_fbfe0c0f954cc6baf49c61bbd91a2245.setContent(html_354550c03fe71240e9c1ec81eefe005b);
+            
+        
+
+        circle_marker_392ea0a77a387b7ef2345b9de1dbb364.bindPopup(popup_fbfe0c0f954cc6baf49c61bbd91a2245)
+        ;
+
+        
+    
+    
+            var circle_marker_e2a889d699fe2de2b6ffdf6a4e18f81d = L.circleMarker(
+                [40.8342, 28.1897],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.4, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_a20c655825e904319cd805bd34cfdd1c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_af2308c3249115e529310221762ffbc3 = $(`<div id="html_af2308c3249115e529310221762ffbc3" style="width: 100.0%; height: 100.0%;">24 km SE of Marmara Ereğlisi, Turkey<br>Mag:6.2<br>Depth:12.736 km</div>`)[0];
+                popup_a20c655825e904319cd805bd34cfdd1c.setContent(html_af2308c3249115e529310221762ffbc3);
+            
+        
+
+        circle_marker_e2a889d699fe2de2b6ffdf6a4e18f81d.bindPopup(popup_a20c655825e904319cd805bd34cfdd1c)
+        ;
+
+        
+    
+    
+            var circle_marker_9622c8116ef6721bd297c17cd2a898f1 = L.circleMarker(
+                [39.249, 29.0164],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.0, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_1c273e5641b7ee22f8ed51a36cb6fe7e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_86f45febd37057806929592da2a90a8a = $(`<div id="html_86f45febd37057806929592da2a90a8a" style="width: 100.0%; height: 100.0%;">18 km N of Simav, Turkey<br>Mag:4.0<br>Depth:9.268 km</div>`)[0];
+                popup_1c273e5641b7ee22f8ed51a36cb6fe7e.setContent(html_86f45febd37057806929592da2a90a8a);
+            
+        
+
+        circle_marker_9622c8116ef6721bd297c17cd2a898f1.bindPopup(popup_1c273e5641b7ee22f8ed51a36cb6fe7e)
+        ;
+
+        
+    
+    
+            var circle_marker_76ac0ae75c9f46ad46c59d175d750f2a = L.circleMarker(
+                [37.9575, 37.5223],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.0, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_eec476b175bc1427752035ce2e82fd33 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6af6b54a94c3e6174bde5036cc032db7 = $(`<div id="html_6af6b54a94c3e6174bde5036cc032db7" style="width: 100.0%; height: 100.0%;">7 km E of Nurhak, Turkey<br>Mag:4.0<br>Depth:10.0 km</div>`)[0];
+                popup_eec476b175bc1427752035ce2e82fd33.setContent(html_6af6b54a94c3e6174bde5036cc032db7);
+            
+        
+
+        circle_marker_76ac0ae75c9f46ad46c59d175d750f2a.bindPopup(popup_eec476b175bc1427752035ce2e82fd33)
+        ;
+
+        
+    
+    
+            var circle_marker_9b6a27dfed954bf99a93c26ac09a6a78 = L.circleMarker(
+                [40.8081, 36.1036],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.6, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_5dd08e3a07c5143dc144d7f5ab3d276f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fcd1e63ddfa6bab158aa4be0351bf81f = $(`<div id="html_fcd1e63ddfa6bab158aa4be0351bf81f" style="width: 100.0%; height: 100.0%;">19 km WNW of Taşova, Turkey<br>Mag:4.8<br>Depth:10.0 km</div>`)[0];
+                popup_5dd08e3a07c5143dc144d7f5ab3d276f.setContent(html_fcd1e63ddfa6bab158aa4be0351bf81f);
+            
+        
+
+        circle_marker_9b6a27dfed954bf99a93c26ac09a6a78.bindPopup(popup_5dd08e3a07c5143dc144d7f5ab3d276f)
+        ;
+
+        
+    
+    
+            var circle_marker_415bab6f13caeef82e007593dbf6a2fe = L.circleMarker(
+                [38.7331, 43.4258],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.0, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_65703f8736824499a1157f664a3ccec9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_534edaabf20c04308464b4a8804776f8 = $(`<div id="html_534edaabf20c04308464b4a8804776f8" style="width: 100.0%; height: 100.0%;">26 km N of Van, Turkey<br>Mag:4.0<br>Depth:10.0 km</div>`)[0];
+                popup_65703f8736824499a1157f664a3ccec9.setContent(html_534edaabf20c04308464b4a8804776f8);
+            
+        
+
+        circle_marker_415bab6f13caeef82e007593dbf6a2fe.bindPopup(popup_65703f8736824499a1157f664a3ccec9)
+        ;
+
+        
+    
+    
+            var circle_marker_2dd934339aa7d719a78a0ef4438f34d8 = L.circleMarker(
+                [38.2348, 29.6874],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.0, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_36495aeaff2f57a49a7acc1e9f11ac14 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9bfd4c1e323318c5f7a8569081882960 = $(`<div id="html_9bfd4c1e323318c5f7a8569081882960" style="width: 100.0%; height: 100.0%;">8 km SSW of Çivril, Turkey<br>Mag:4.0<br>Depth:10.0 km</div>`)[0];
+                popup_36495aeaff2f57a49a7acc1e9f11ac14.setContent(html_9bfd4c1e323318c5f7a8569081882960);
+            
+        
+
+        circle_marker_2dd934339aa7d719a78a0ef4438f34d8.bindPopup(popup_36495aeaff2f57a49a7acc1e9f11ac14)
+        ;
+
+        
+    
+    
+            var circle_marker_e6e68bb50191af1b81ec3126eb885da2 = L.circleMarker(
+                [39.9237, 39.5361],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.2, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_c6685bc71a103c065102024821c129d3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4731806f6db0aba37f2c0c74e2342f37 = $(`<div id="html_4731806f6db0aba37f2c0c74e2342f37" style="width: 100.0%; height: 100.0%;">20 km N of Erzincan, Turkey<br>Mag:4.1<br>Depth:10.0 km</div>`)[0];
+                popup_c6685bc71a103c065102024821c129d3.setContent(html_4731806f6db0aba37f2c0c74e2342f37);
+            
+        
+
+        circle_marker_e6e68bb50191af1b81ec3126eb885da2.bindPopup(popup_c6685bc71a103c065102024821c129d3)
+        ;
+
+        
+    
+    
+            var circle_marker_85703c08a5860f554146e4707856c0fd = L.circleMarker(
+                [36.2649, 36.0502],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.2, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_96b37cb408328822cb0c27d1a373fea5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8d16089d33adbb4dd6d4272019814f47 = $(`<div id="html_8d16089d33adbb4dd6d4272019814f47" style="width: 100.0%; height: 100.0%;">6 km NNW of Toygarlı, Turkey<br>Mag:4.1<br>Depth:10.0 km</div>`)[0];
+                popup_96b37cb408328822cb0c27d1a373fea5.setContent(html_8d16089d33adbb4dd6d4272019814f47);
+            
+        
+
+        circle_marker_85703c08a5860f554146e4707856c0fd.bindPopup(popup_96b37cb408328822cb0c27d1a373fea5)
+        ;
+
+        
+    
+    
+            var circle_marker_3bd03cae34a23ca72280ff26a7f51da6 = L.circleMarker(
+                [35.9685, 30.3907],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.4, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_c669a4477b8267d11846bc00b675d8be = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_67945c0d05588998853c4d40ae059166 = $(`<div id="html_67945c0d05588998853c4d40ae059166" style="width: 100.0%; height: 100.0%;">40 km S of Beykonak, Turkey<br>Mag:4.2<br>Depth:47.586 km</div>`)[0];
+                popup_c669a4477b8267d11846bc00b675d8be.setContent(html_67945c0d05588998853c4d40ae059166);
+            
+        
+
+        circle_marker_3bd03cae34a23ca72280ff26a7f51da6.bindPopup(popup_c669a4477b8267d11846bc00b675d8be)
+        ;
+
+        
+    
+    
+            var circle_marker_2e4fb260a59716d82a38968d35dff4ce = L.circleMarker(
+                [36.6589, 31.7729],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.8, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_d95441c5b222bd3a4ab51aaba2634c21 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_21d8f247b779cb891a530204a5cdb0e1 = $(`<div id="html_21d8f247b779cb891a530204a5cdb0e1" style="width: 100.0%; height: 100.0%;">3 km N of Avsallar, Turkey<br>Mag:4.4<br>Depth:14.117 km</div>`)[0];
+                popup_d95441c5b222bd3a4ab51aaba2634c21.setContent(html_21d8f247b779cb891a530204a5cdb0e1);
+            
+        
+
+        circle_marker_2e4fb260a59716d82a38968d35dff4ce.bindPopup(popup_d95441c5b222bd3a4ab51aaba2634c21)
+        ;
+
+        
+    
+    
+            var circle_marker_34587822dfed93db944545fb33167b0f = L.circleMarker(
+                [39.511, 40.6149],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.4, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_34ed92350c5fb16e9856b59deda183b5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9e64534cb9ade9eabf83d63acb7af7cd = $(`<div id="html_9e64534cb9ade9eabf83d63acb7af7cd" style="width: 100.0%; height: 100.0%;">11 km NE of Yedisu, Turkey<br>Mag:4.2<br>Depth:10.0 km</div>`)[0];
+                popup_34ed92350c5fb16e9856b59deda183b5.setContent(html_9e64534cb9ade9eabf83d63acb7af7cd);
+            
+        
+
+        circle_marker_34587822dfed93db944545fb33167b0f.bindPopup(popup_34ed92350c5fb16e9856b59deda183b5)
+        ;
+
+        
+    
+    
+            var circle_marker_4b76d7ea1206a25dfd5d12512fa48292 = L.circleMarker(
+                [39.023, 32.9069],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.6, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_fbe56780a85e6ef0058ab01f0a8d47ad = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a291de5ba4cc5c14d25353f29631972c = $(`<div id="html_a291de5ba4cc5c14d25353f29631972c" style="width: 100.0%; height: 100.0%;">16 km WSW of Kulu, Turkey<br>Mag:4.3<br>Depth:10.0 km</div>`)[0];
+                popup_fbe56780a85e6ef0058ab01f0a8d47ad.setContent(html_a291de5ba4cc5c14d25353f29631972c);
+            
+        
+
+        circle_marker_4b76d7ea1206a25dfd5d12512fa48292.bindPopup(popup_fbe56780a85e6ef0058ab01f0a8d47ad)
+        ;
+
+        
+    
+    
+            var circle_marker_f1f50417caa66e7cdf84fa4eec372e84 = L.circleMarker(
+                [37.2735, 44.0302],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.2, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_0e9202f4554ba894dd498dd0b941b095 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0bab201d2d95d81041f25e27928cd04f = $(`<div id="html_0bab201d2d95d81041f25e27928cd04f" style="width: 100.0%; height: 100.0%;">37 km E of Çukurca, Turkey<br>Mag:4.6<br>Depth:10.0 km</div>`)[0];
+                popup_0e9202f4554ba894dd498dd0b941b095.setContent(html_0bab201d2d95d81041f25e27928cd04f);
+            
+        
+
+        circle_marker_f1f50417caa66e7cdf84fa4eec372e84.bindPopup(popup_0e9202f4554ba894dd498dd0b941b095)
+        ;
+
+        
+    
+    
+            var circle_marker_f66f16e4770dc783b19b86bc7aadeb59 = L.circleMarker(
+                [36.4462, 28.7236],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.0, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_340df0401af14fbb427c3366bfdc207e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_45d806c1645a33fa2ca7be6cb327c50c = $(`<div id="html_45d806c1645a33fa2ca7be6cb327c50c" style="width: 100.0%; height: 100.0%;">29 km S of Sarigerme, Turkey<br>Mag:4.0<br>Depth:10.01 km</div>`)[0];
+                popup_340df0401af14fbb427c3366bfdc207e.setContent(html_45d806c1645a33fa2ca7be6cb327c50c);
+            
+        
+
+        circle_marker_f66f16e4770dc783b19b86bc7aadeb59.bindPopup(popup_340df0401af14fbb427c3366bfdc207e)
+        ;
+
+        
+    
+    
+            var circle_marker_e6ee16778d5327fc620bb6938695ff72 = L.circleMarker(
+                [39.6159, 40.2744],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.8, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_e316c416a580b99bd8f7767046f33b0f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e0c18bcab565deccff2c097cfe44a9d3 = $(`<div id="html_e0c18bcab565deccff2c097cfe44a9d3" style="width: 100.0%; height: 100.0%;">19 km SSW of Tercan, Turkey<br>Mag:4.4<br>Depth:10.0 km</div>`)[0];
+                popup_e316c416a580b99bd8f7767046f33b0f.setContent(html_e0c18bcab565deccff2c097cfe44a9d3);
+            
+        
+
+        circle_marker_e6ee16778d5327fc620bb6938695ff72.bindPopup(popup_e316c416a580b99bd8f7767046f33b0f)
+        ;
+
+        
+    
+    
+            var circle_marker_3507e1d6604c2acff12fbdb4d20d252e = L.circleMarker(
+                [39.2529, 41.6996],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.0, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_8615e806126dffb5b742f50a90a5fed2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2554b77f818cdc2b8893a43caf185bd8 = $(`<div id="html_2554b77f818cdc2b8893a43caf185bd8" style="width: 100.0%; height: 100.0%;">11 km S of Hınıs, Turkey<br>Mag:4.5<br>Depth:9.04 km</div>`)[0];
+                popup_8615e806126dffb5b742f50a90a5fed2.setContent(html_2554b77f818cdc2b8893a43caf185bd8);
+            
+        
+
+        circle_marker_3507e1d6604c2acff12fbdb4d20d252e.bindPopup(popup_8615e806126dffb5b742f50a90a5fed2)
+        ;
+
+        
+    
+    
+            var circle_marker_1e7369dbf14c426d87a789077f062438 = L.circleMarker(
+                [38.2576, 38.7755],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.6, "stroke": true, "weight": 3}
+            ).addTo(map_6c7f9619b3919adc662189c975b77287);
+        
+    
+        var popup_a42a3d7c5741ff97d9d442cb6cc98351 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ddba6b52c74c4f80ec99dcacf3e5c015 = $(`<div id="html_ddba6b52c74c4f80ec99dcacf3e5c015" style="width: 100.0%; height: 100.0%;">23 km WSW of Doğanyol, Turkey<br>Mag:4.3<br>Depth:10.0 km</div>`)[0];
+                popup_a42a3d7c5741ff97d9d442cb6cc98351.setContent(html_ddba6b52c74c4f80ec99dcacf3e5c015);
+            
+        
+
+        circle_marker_1e7369dbf14c426d87a789077f062438.bindPopup(popup_a42a3d7c5741ff97d9d442cb6cc98351)
+        ;
+
+        
+    
+</script>
+</html>
