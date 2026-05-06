@@ -52,7 +52,7 @@ python 3.10, pandas, matplotlib, seaborn, folium
 
 ---
 
-not:
+Not:
 bu proje tamamen deneme amaçlı  
 gerçek bir analiz falan değil, sadece veriyle uğraşmak için yaptım
 
