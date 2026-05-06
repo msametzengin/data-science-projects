@@ -15,7 +15,8 @@ https://earthquake.usgs.gov/
 Çok detaylı filtrelemedim aslında, sadece:  
 son 1 yıl  
 2.0 üstü depremler  
-türkiye civarı koordinatlar  
+türkiye civarı koordinatlar
+
 ---
 
 Grafik kısmı şu şekilde:
