@@ -12,7 +12,7 @@ Veriyi çek -> Düzenle -> Grafiklere dök -> Görselleştir
 Kullandığım veri kaynağı:
 https://earthquake.usgs.gov/
 
-Çok detaylı filtrelemedim aslında, sadece:  
+Filtreler:
 son 1 yıl  
 2.0 üstü depremler  
 türkiye civarı koordinatlar
