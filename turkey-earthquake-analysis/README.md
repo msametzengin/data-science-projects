@@ -1,4 +1,4 @@
-# Türkiye deprem analizi
+# Türkiye Deprem Analizi
 
 Bu projede usgs api'den türkiye'deki son 1 yılın deprem verilerini çektim.  
 Çok profesyonel bir şey değil, daha çok veriyle uğraşmak için yaptım.
