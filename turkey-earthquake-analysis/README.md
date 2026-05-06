@@ -5,15 +5,15 @@ Bu projede usgs api'den türkiye'deki son 1 yılın deprem verilerini çektim.
 
 Veriyi çektikten sonra biraz temizledim, sonra grafiklere döktüm, en son da harita üzerinde göstermeye çalıştım.
 
-akış şu şekilde:
-veriyi çek -> düzenle -> grafiklere dök -> görselleştir
+Akış şu şekilde:
+Veriyi çek -> Düzenle -> Grafiklere dök -> Görselleştir
 
 ---
 
-kullandığım veri kaynağı:
+Kullandığım veri kaynağı:
 https://earthquake.usgs.gov/
 
-çok detaylı filtrelemedim aslında, sadece:
+Çok detaylı filtrelemedim aslında, sadece:
 - son 1 yıl
 - 2.0 üstü depremler
 - türkiye civarı koordinatlar
@@ -36,18 +36,18 @@ ilk 10'u çıkardım, bazı isimler biraz saçma gelebilir çünkü veri direkt 
 
 ---
 
-harita kısmı şu şekilde:
+Harita kısmı şu şekilde:
 
-folium ile
+Folium ile
 her depremi noktaya çevirdim
 büyüklüğe göre boyut verdim
 5 üstünü kırmızı yaptım
 
-yoğunluk nerede bakmak için heatmap denedim.
+Yoğunluk nerede bakmak için heatmap denedim.
 
 ---
 
-kullandılan teknolojiler:
+Kullandılan teknolojiler:
 python 3.10, pandas, matplotlib, seaborn, folium
 
 ---
