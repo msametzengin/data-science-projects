@@ -1,116 +1,66 @@
-# Earthquake Data Analysis & Interactive Mapping (Turkey)
+# Türkiye deprem analizi
 
-This project analyzes real-time earthquake data in Turkey using the USGS public API.
-It performs statistical analysis, time-series trend evaluation, and interactive geographic mapping.
+Bu projede usgs api'den türkiye'deki son 1 yılın deprem verilerini çektim.  
+Çok profesyonel bir şey değil, daha çok veriyle uğraşmak için yaptım.
 
-The project demonstrates real-world API integration, structured data transformation, exploratory data analysis (EDA), and geospatial visualization using Python.
+Veriyi çektikten sonra biraz temizledim, sonra grafiklere döktüm, en son da harita üzerinde göstermeye çalıştım.
+
+akış şu şekilde:
+veriyi çek -> düzenle -> grafiklere dök -> görselleştir
 
 ---
 
-## 📡 Data Source
-
-Earthquake data is retrieved dynamically from:
-
-USGS (United States Geological Survey) Earthquake API
+kullandığım veri kaynağı:
 https://earthquake.usgs.gov/
 
-The analysis covers:
- - Last 1 year of earthquake activity
- - Minimum magnitude threshold: 2.0
- - Turkey geographic bounding box
-    -Latitude: 35 – 43
-    -Longitude: 25 – 45
-
-All data is fetched in GeoJSON format and processed dynamically at runtime.
+çok detaylı filtrelemedim aslında, sadece:
+- son 1 yıl
+- 2.0 üstü depremler
+- türkiye civarı koordinatlar
 
 ---
 
-## 📊 Analyses Performed
+Grafik kısmı şu şekilde:
 
-### 1️⃣ Magnitude Distribution
-- Histogram with KDE
-- Frequency analysis of earthquake magnitudes
-- Identification of magnitude concentration patterns
-### 2️⃣ Depth vs Magnitude Analysis
-- Scatter plot showing relationship between depth and magnitude
-- Visual inspection of potential correlation between depth and strength
-### 3️⃣ Monthly Trend Analysis
-- Number of earthquakes per month
-- Time-based seismic activity tracking
-- Time-series aggregation using date-period transformation
-### 4️⃣ Top 10 Most Active Cities
-- Earthquake frequency ranking by city
-- Identification of regional seismic hotspots
+Deprem büyüklüklerine baktım  
+hangi büyüklükte daha çok deprem var diye histogram çizdim
+
+Derinlik vs büyüklük  
+burada açıkçası net bir şey çıkmadı ama scatter plot attım görmek için
+
+Aylık deprem sayısı  
+zamanla artıyor mu azalıyor mu diye kontrol ettim
+
+En çok deprem olan şehirler  
+ilk 10'u çıkardım, bazı isimler biraz saçma gelebilir çünkü veri direkt apiden geliyor
 
 ---
 
-## 🗺️ Interactive Map Visualization
+harita kısmı şu şekilde:
 
-### Standard Map
-- Circle markers for each earthquake
-- Marker size proportional to magnitude
-- Color-coded by severity (Red ≥ 5.0, Blue < 5.0)
-- Interactive popups displaying location, magnitude, and depth
+folium ile
+her depremi noktaya çevirdim
+büyüklüğe göre boyut verdim
+5 üstünü kırmızı yaptım
 
-### Heatmap
-- Density-based visualization
-- Magnitude-weighted intensity
-- Identifies seismic clusters and activity concentration zones
+yoğunluk nerede bakmak için heatmap denedim.
 
 ---
 
-## 🧠 Technical Highlights
-
-- REST API integration using requests
-- JSON parsing and structured data extraction
-- Data cleaning and filtering using Pandas
-- Time-series grouping with .dt.to_period()
-- Statistical visualization with Matplotlib and Seaborn
-- Interactive geospatial visualization using Folium
-- Heatmap generation with folium.plugins.HeatMap
+kullandılan teknolojiler:
+python 3.10, pandas, matplotlib, seaborn, folium
 
 ---
 
-## 🛠️ Technologies Used
-
-- Python
-- Pandas
-- Matplotlib
-- Seaborn
-- Folium
-- Requests
+not:
+bu proje tamamen deneme amaçlı  
+gerçek bir analiz falan değil, sadece veriyle uğraşmak için yaptım
 
 ---
 
-## ⚠️ Disclaimer
+çalıştırmak için:
 
-This project is developed for educational and analytical purposes only.
-It is not intended for official seismic risk assessment, governmental decision-making, or emergency planning.
-
----
-
-## ▶️ Usage
-
-Install required libraries:
-
-pip install -r requirements.txt
-
-Run the script:
-
+pip install -r requirements.txt  
 python main.py
 
-The project generates:
-- Statistical plots (PNG format)
-- Earthquake_map.html (Interactive earthquake map)
-- Earthquake_heatmap.html (Interactive density heatmap)
-
-## 🇹🇷 Türkçe Açıklama
-
-Bu proje, USGS API kullanılarak Türkiye’deki deprem verilerinin dinamik olarak çekilmesini, temizlenmesini, analiz edilmesini ve interaktif harita üzerinde görselleştirilmesini amaçlamaktadır.
-
-Proje kapsamında:
-- API entegrasyonu
-- Veri temizleme ve dönüştürme
-- Zaman serisi analizi
-- İstatistiksel görselleştirme
-- Coğrafi yoğunluk haritalaması uygulanmıştır.
+çıktı olarak grafikler ve html haritalar oluşuyor
