@@ -22,10 +22,8 @@ Sistem şu şekilde çalışıyor:
 
 Webcam sürekli açık kalıyor ve görüntüyü kare kare işliyorum.  
 Arka planı öğrenip, hareket eden bir şey olup olmadığını kontrol ediyorum.
-
 Eğer belirli bir seviyenin üstünde hareket varsa:
 WhatsApp Web üzerinden otomatik mesaj gönderiliyor.
-
 Spam olmaması için de küçük bir bekleme süresi koydum.
 
 ---
@@ -35,7 +33,6 @@ Hareket algılama kısmı:
 Arka plan çıkarma (mog2) kullandım  
 Gürültüyü azaltmak için biraz filtreleme yaptım  
 Küçük hareketleri direkt saymıyorum (yanlış alarm olmasın diye)
-
 En son kontur alanına bakarak gerçekten hareket var mı karar veriyor
 
 ---
@@ -44,7 +41,6 @@ WhatsApp kısmı:
 
 WhatsApp Web üzerinden çalışıyor  
 pyautogui ile klavye/mouse kontrolü yapıyorum  
-
 Mesajı otomatik yazıp gönderiyor
 
 ---
