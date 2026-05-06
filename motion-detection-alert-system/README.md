@@ -11,10 +11,10 @@ Kameradan görüntü al -> Hareket var mı bak -> Varsa mesaj gönder
 ---
 
 Kullandığım şeyler:
-python
-opencv
-pyautogui
-whatsapp web
+python 
+opencv 
+pyautogui 
+whatsapp web 
 
 ---
 
