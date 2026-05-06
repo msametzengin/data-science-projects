@@ -38,10 +38,9 @@ ilk 10'u çıkardım, bazı isimler biraz saçma gelebilir çünkü veri direkt 
 Harita kısmı şu şekilde:
 
 Folium ile
-her depremi noktaya çevirdim
-büyüklüğe göre boyut verdim
-5 üstünü kırmızı yaptım
-
+her depremi noktaya çevirdim.
+büyüklüğe göre boyut verdim.
+5 üstünü kırmızı yaptım.
 Yoğunluk nerede bakmak için heatmap denedim.
 
 ---
@@ -52,7 +51,7 @@ python 3.10, pandas, matplotlib, seaborn, folium
 ---
 
 Not:
-bu proje tamamen deneme amaçlı  
+Bu proje tamamen deneme amaçlı  
 gerçek bir analiz falan değil, sadece veriyle uğraşmak için yaptım
 
 ---
