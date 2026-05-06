@@ -45,7 +45,7 @@ Yoğunluk nerede bakmak için heatmap denedim.
 
 ---
 
-Kullandılan teknolojiler:
+Kullandılan teknolojiler:  
 python 3.10, pandas, matplotlib, seaborn, folium
 
 ---
@@ -56,9 +56,9 @@ gerçek bir analiz falan değil, sadece veriyle uğraşmak için yaptım
 
 ---
 
-çalıştırmak için:
+Çalıştırmak için:
 
 pip install -r requirements.txt  
 python main.py
 
-çıktı olarak grafikler ve html haritalar oluşuyor
+Çıktı olarak grafikler ve html haritalar oluşuyor
