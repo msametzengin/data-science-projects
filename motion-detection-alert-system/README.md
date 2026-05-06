@@ -10,7 +10,7 @@ Kameradan görüntü al -> Hareket var mı bak -> Varsa mesaj gönder
 
 ---
 
-Kullandığım teknolojiler:
+Kullandığım teknolojiler:  
 python  
 opencv  
 pyautogui  
