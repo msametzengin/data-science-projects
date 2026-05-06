@@ -1,88 +1,68 @@
-# Motion Detection WhatsApp Alert System
-(Hareket Algılama ve WhatsApp Bildirim Sistemi)
+# Hareket Algılama ve Whatsapp Bildirim Sistemi
 
-This project focuses on detecting motion using a webcam and sending an automatic WhatsApp message when movement is detected.
-(Bu proje, webcam kullanarak hareket algılamayı ve hareket tespit edildiğinde otomatik olarak WhatsApp mesajı göndermeyi amaçlamaktadır.)
+Bu projede webcam üzerinden hareket algılayan basit bir sistem yaptım.  
+Hareket algılandığında otomatik olarak WhatsApp üzerinden mesaj gönderiyor.
 
-The system is built with Python and OpenCV and uses WhatsApp Web for message delivery.
-(Sistem Python ve OpenCV ile geliştirilmiştir ve mesaj gönderimi için WhatsApp Web kullanılmaktadır.)
+Çok profesyonel bir şey değil, daha çok computer vision ve otomasyon mantığını anlamak için yaptım.
 
-## 📌 Project Description (Proje Açıklaması)
+Genel mantık:
+Kameradan görüntü al -> Hareket var mı bak -> Varsa mesaj gönder
 
-- Captures live video from the webcam
-  (Webcam üzerinden canlı görüntü alır)
-- Detects motion using background subtraction (MOG2)
-  (Arka plan çıkarımı (MOG2) yöntemiyle hareket algılar)
-- Filters small movements to reduce false detections
-  (Yanlış alarmları azaltmak için küçük hareketleri filtreler)
-- Sends an automated WhatsApp alert when motion is detected
-  (Hareket algılandığında otomatik WhatsApp bildirimi gönderir)
-- Uses a cooldown mechanism to prevent message spam
-  (Mesaj spamini önlemek için bekleme süresi kullanır)
-- Displays live camera feed and motion status on screen
-  (Canlı kamera görüntüsünü ve hareket durumunu ekranda gösterir)
+---
 
-## 🧠 How It Works (Nasıl Çalışır)
+Kullandığım şeyler:
+python
+opencv
+pyautogui
+whatsapp web
 
-The webcam feed is continuously processed frame by frame.
-(Webcam görüntüsü kare kare işlenir.)
+---
 
-A background model is created and updated over time to distinguish moving objects from the static background.
-(Hareketli nesneleri sabit arka plandan ayırmak için zamanla güncellenen bir arka plan modeli oluşturulur.)
+Sistem şu şekilde çalışıyor:
 
-When a significant motion area is detected, a WhatsApp message containing the date and time is sent.
-(Belirli bir eşik üzerinde hareket algılandığında tarih ve saat bilgisi içeren bir WhatsApp mesajı gönderilir.)
+Webcam sürekli açık kalıyor ve görüntüyü kare kare işliyorum.  
+Arka planı öğrenip, hareket eden bir şey olup olmadığını kontrol ediyorum.
 
-## 🧪 Motion Detection Logic (Hareket Algılama Mantığı)
+Eğer belirli bir seviyenin üstünde hareket varsa:
+WhatsApp Web üzerinden otomatik mesaj gönderiliyor.
 
-- Background subtraction with MOG2 algorithm
-  (MOG2 algoritması ile arka plan çıkarımı)
-- Binary thresholding and morphological operations
-  (İkili eşikleme ve morfolojik işlemler)
-- Contour detection and area filtering
-  (Kontur tespiti ve alan bazlı filtreleme)
+Spam olmaması için de küçük bir bekleme süresi koydum.
 
-## 📱 WhatsApp Alert System (WhatsApp Bildirim Sistemi)
+---
 
-- Messages are sent using WhatsApp Web
-  (Mesajlar WhatsApp Web üzerinden gönderilir)
-- Keyboard automation is handled with PyAutoGUI
-  (Klavye otomasyonu PyAutoGUI ile sağlanır)
-- The system can also send messages to the user's own number
-  (Sistem kullanıcının kendi numarasına da mesaj gönderebilir)
+Hareket algılama kısmı:
 
-## 🛠️ Technologies / Kullanılan Teknolojiler
+Arka plan çıkarma (mog2) kullandım  
+Gürültüyü azaltmak için biraz filtreleme yaptım  
+Küçük hareketleri direkt saymıyorum (yanlış alarm olmasın diye)
 
-Python  
-OpenCV  
-PyAutoGUI  
-WhatsApp Web  
+En son kontur alanına bakarak gerçekten hareket var mı karar veriyor
 
-## 📌 Project Note (Proje Notu)
+---
 
-This project was created by following an online computer vision course.
-The code structure, comments, and behavior were adjusted and improved
-to better understand motion detection and basic automation workflows.
+WhatsApp kısmı:
 
-(Bu proje bir kursu takip edilerek oluşturulmuştur.
-Kod yapısı, yorumlar ve davranışlar; hareket algılama ve temel otomasyon
-mantığını daha iyi anlamak amacıyla düzenlenmiş ve geliştirilmiştir.)
+WhatsApp Web üzerinden çalışıyor  
+pyautogui ile klavye/mouse kontrolü yapıyorum  
 
-## ⚠️ Disclaimer (Uyarı)
+Mesajı otomatik yazıp gönderiyor
 
-This project is intended for educational purposes only.
-It is not designed to be a professional security or surveillance system.
+---
 
-(Bu proje yalnızca eğitim amaçlıdır.
-Profesyonel bir güvenlik veya gözetim sistemi olarak kullanılmak üzere tasarlanmamıştır.)
+Not:
 
-## 🖼️ Screenshots (Ekran Görüntüleri)
+Bu proje tamamen deneme amaçlı  
+gerçek bir güvenlik sistemi falan değil  
+
+---
+
+Çalıştırmak için:
+
+pip install -r requirements.txt  
+python main.py
+
+---
+
+Ekran görüntüsü:
 
 ![WhatsApp Alert](screenshots/whatsapp_alert.png)
-
-## ▶️ Usage / Kullanım
-
-Install required libraries (Gerekli kütüphaneleri yükleyin):
-
-```bash
-pip install -r requirements.txt
