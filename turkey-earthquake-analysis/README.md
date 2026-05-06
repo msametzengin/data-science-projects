@@ -4,7 +4,6 @@ Bu projede usgs api'den türkiye'deki son 1 yılın deprem verilerini çektim.
 Çok profesyonel bir şey değil, daha çok veriyle uğraşmak için yaptım.
 
 Veriyi çektikten sonra biraz temizledim, sonra grafiklere döktüm, en son da harita üzerinde göstermeye çalıştım.
-
 Akış şu şekilde:
 Veriyi çek -> Düzenle -> Grafiklere dök -> Görselleştir
 
@@ -13,10 +12,10 @@ Veriyi çek -> Düzenle -> Grafiklere dök -> Görselleştir
 Kullandığım veri kaynağı:
 https://earthquake.usgs.gov/
 
-Çok detaylı filtrelemedim aslında, sadece:
-- son 1 yıl
-- 2.0 üstü depremler
-- türkiye civarı koordinatlar
+Çok detaylı filtrelemedim aslında, sadece:  
+son 1 yıl
+2.0 üstü depremler
+türkiye civarı koordinatlar
 
 ---
 
