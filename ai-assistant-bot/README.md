@@ -16,12 +16,12 @@ Mesela: daha kurumsal konuşması, belirli konu dışına çıkmaması, müşter
 ---
 
 Projede yaptığım şeyler:  
-flask ile backend tarafını kurdum, gemini api entegrasyonu yaptım, basit arayüz hazırladım, prompt yapısını düzenledim, kullanıcı mesajlarını işledim.
+Flask ile backend tarafını kurdum, gemini api entegrasyonu yaptım, basit arayüz hazırladım, prompt yapısını düzenledim, kullanıcı mesajlarını işledim.
 
 ---
 
 Kullandığım teknolojiler:  
-python 3.10, flask, google gemini api, html / css, jinja2
+Python 3.10, flask, google gemini api, html / css, jinja2
 
 ---
 
