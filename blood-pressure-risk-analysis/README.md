@@ -1,9 +1,6 @@
-# tansiyon risk analizi
+# Tansiyon risk analizi
 
-Bu projede günlük tansiyon verilerini analiz edip günleri riskli veya normal olarak ayırmaya çalıştım.
-
-Makine öğrenmesinde gözetimsiz öğrenme tarafını görmek için yaptım.  
-Verileri excel dosyasından okuyup KMeans ile kümelendirdim.
+Bu projede günlük tansiyon verilerini analiz edip günleri riskli veya normal olarak ayırmaya çalıştım. Makine öğrenmesinde gözetimsiz öğrenme tarafını görmek için yaptım. Verileri excel dosyasından okuyup KMeans ile kümelendirdim.
 
 Genel mantık:
 Veriyi oku -> değerleri ayır -> kümelendir -> risk durumunu belirle
