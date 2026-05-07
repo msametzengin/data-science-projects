@@ -1,8 +1,6 @@
 # Kalp krizi risk tahmini
 
-Bu projede makine öğrenmesi kullanarak kalp krizi risk tahmini yapmaya çalıştım.  
-Gerçek bir veri seti kullandım ve birkaç farklı modeli karşılaştırdım.
-Çok profesyonel bir medikal sistem değil, daha çok machine learning pratiği yapmak için geliştirdim.
+Bu projede makine öğrenmesi kullanarak kalp krizi risk tahmini yapmaya çalıştım. Gerçek bir veri seti kullandım ve birkaç farklı modeli karşılaştırdım. Profesyonel bir medikal sistem değil, daha çok machine learning pratiği yapmak için geliştirdim.
 
 Genel mantık:
 Veriyi hazırla -> modeli eğit -> tahmin yap
