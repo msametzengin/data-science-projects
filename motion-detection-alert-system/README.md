@@ -1,4 +1,4 @@
-# Hareket Algılama ve Whatsapp Bildirim Sistemi
+# Hareket Algılama ve whatsapp bildirim sistemi
 
 Bu projede webcam üzerinden hareket algılayan basit bir sistem yaptım.  
 Hareket algılandığında otomatik olarak WhatsApp üzerinden mesaj gönderiyor.
