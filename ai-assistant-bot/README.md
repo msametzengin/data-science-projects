@@ -25,8 +25,7 @@ Python 3.10, flask, google gemini api, html / css, jinja2
 
 ---
 
-Not:  
-Bu proje tamamen öğrenme amaçlı geliştirildi. Özellikle generative ai ve prompt mantığını anlamak için yaptım. Gerçek bir kurumsal sistem değil.
+Not: Bu proje tamamen öğrenme amaçlı geliştirildi. Özellikle generative ai ve prompt mantığını anlamak için yaptım. Gerçek bir kurumsal sistem değil.
 
 ---
 
