@@ -21,22 +21,15 @@ Projede yaptığım şeyler:
 Sabah ve akşam tansiyonlarını ayrı ayrı işledim
 
 Toplamda:
-sabah sistolik, sabah diyastolik / akşam sistolik, akşam diyastolik olacak şekilde 4 veri kullandım
-Daha sonra KMeans ile verileri 2 kümeye ayırdım
+Sabah sistolik, sabah diyastolik / akşam sistolik, akşam diyastolik olacak şekilde 4 veri kullandım. Daha sonra KMeans ile verileri 2 kümeye ayırdım. Ortalama tansiyonu daha yüksek olan kümeyi: "Riskli" diğerini ise "Normal" olarak etiketledim.
 
-Ortalama tansiyonu daha yüksek olan kümeyi: "Riskli"  
-diğerini ise: "Normal" olarak etiketledim
-
----
-
-Sonuç olarak:
+Sonuç:  
 Her gün için risk durumu oluşturuluyor ve yeni bir excel dosyasına kaydediliyor. Konsolda da sonuçlar görünüyor
 
 ---
 
-Kullandığım teknolojiler:
-
-python 3.10, pandas, numpy, scikit-learn
+Kullandığım teknolojiler:  
+Python 3.10, pandas, numpy, scikit-learn
 
 ---
 
