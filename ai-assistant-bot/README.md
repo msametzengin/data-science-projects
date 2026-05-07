@@ -40,4 +40,4 @@ python app.py
 
 Ekran görüntüsü:
 
-screenshots/chat.png
+![Chat Screenshot](screenshots/chat.png)
