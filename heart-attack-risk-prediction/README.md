@@ -1,4 +1,4 @@
-# kalp krizi risk tahmini
+# Kalp krizi risk tahmini
 
 Bu projede makine öğrenmesi kullanarak kalp krizi risk tahmini yapmaya çalıştım.  
 Gerçek bir veri seti kullandım ve birkaç farklı modeli karşılaştırdım.
