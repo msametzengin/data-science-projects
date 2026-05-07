@@ -10,12 +10,8 @@ Projelerin çoğu öğrenme ve pratik amaçlı geliştirildi. Farklı kütüphan
 USGS API üzerinden son 1 yılın deprem verilerini çekip analiz ettiğim proje.
 
 Projede:
-- deprem verilerini çektim
-- grafikler oluşturdum
-- aylık değişimleri inceledim
-- harita ve heatmap oluşturdum
-
-Kullandığım şeyler:
+Deprem verilerini çektim, grafikler oluşturdum, aylık değişimleri inceledim, harita ve heatmap oluşturdum.  
+Kullandığım teknolojiler:
 python 3.10, pandas, matplotlib, seaborn, folium
 
 ---
@@ -25,8 +21,7 @@ python 3.10, pandas, matplotlib, seaborn, folium
 Makine öğrenmesi kullanarak kalp krizi riski tahmini yaptığım proje. ANN modeli kullandım ve birkaç farklı model ile karşılaştırdım.
 
 Veri seti:
-https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction
-
+https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction  
 Kullandığım teknolojiler:
 python 3.10, pandas, scikit-learn, tensorflow
 
@@ -36,7 +31,7 @@ python 3.10, pandas, scikit-learn, tensorflow
 
 Excel üzerinden alınan tansiyon verilerini analiz edip riskli / normal şeklinde ayırmaya çalıştım. Burada KMeans kullanarak kümelendirme yaptım.
 
-Kullandığım şeyler:
+Kullandığım teknolojiler:
 python 3.10, pandas, scikit-learn
 
 ---
@@ -45,7 +40,7 @@ python 3.10, pandas, scikit-learn
 
 Flask ve Google Gemini API kullanarak geliştirdiğim basit chatbot projesi. Kullanıcı mesajlarını işleyip yapay zekâ üzerinden cevap üretiyor.
 
-Kullandığım şeyler:
+Kullandığım teknolojiler:
 python 3.10, flask, gemini api
 
 ---
@@ -54,5 +49,5 @@ python 3.10, flask, gemini api
 
 Webcam üzerinden hareket algılayan ve otomatik WhatsApp mesajı gönderen proje. OpenCV ile hareket algılama tarafını yaptım.
 
-Kullandığım şeyler:
+Kullandığım teknolojiler:
 python 3.10, opencv, pyautogui
