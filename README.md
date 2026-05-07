@@ -1,11 +1,11 @@
-## Projeler
+# Projeler
 
 Burada veri analizi, makine öğrenmesi, görüntü işleme ve otomasyon tarafında yaptığım bazı projeler bulunuyor.  
 Projelerin çoğu öğrenme ve pratik amaçlı geliştirildi. Farklı kütüphaneler ve yapılar denemeye çalıştım.
 
 ---
 
-# Türkiye deprem analizi
+## Türkiye deprem analizi
 
 USGS API üzerinden son 1 yılın deprem verilerini çekip analiz ettiğim proje.
 
@@ -16,7 +16,7 @@ python 3.10, pandas, matplotlib, seaborn, folium
 
 ---
 
-# Kalp krizi risk tahmini
+## Kalp krizi risk tahmini
 
 Makine öğrenmesi kullanarak kalp krizi riski tahmini yaptığım proje. ANN modeli kullandım ve birkaç farklı model ile karşılaştırdım.
 
@@ -27,7 +27,7 @@ python 3.10, pandas, scikit-learn, tensorflow
 
 ---
 
-# Tansiyon risk analizi
+## Tansiyon risk analizi
 
 Excel üzerinden alınan tansiyon verilerini analiz edip riskli / normal şeklinde ayırmaya çalıştım. Burada KMeans kullanarak kümelendirme yaptım.
 
@@ -36,7 +36,7 @@ python 3.10, pandas, scikit-learn
 
 ---
 
-# Ai destekli chatbot
+## Ai destekli chatbot
 
 Flask ve Google Gemini API kullanarak geliştirdiğim basit chatbot projesi. Kullanıcı mesajlarını işleyip yapay zekâ üzerinden cevap üretiyor.
 
