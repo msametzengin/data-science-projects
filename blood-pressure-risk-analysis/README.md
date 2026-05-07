@@ -1,100 +1,55 @@
-# Blood Pressure Risk Analysis with KMeans  
-(KMeans ile Tansiyon Risk Analizi)
+# tansiyon risk analizi
 
-This project analyzes daily blood pressure measurements and classifies days as **Risky** or **Normal** using an unsupervised machine learning approach.  
-(Bu proje günlük tansiyon ölçümlerini analiz eder ve gözetimsiz makine öğrenmesi yöntemi kullanarak günleri **Riskli** veya **Normal** olarak sınıflandırır.)
+Bu projede günlük tansiyon verilerini analiz edip günleri riskli veya normal olarak ayırmaya çalıştım.
 
-Blood pressure data is read from an Excel file, processed, and clustered with **KMeans** to identify higher-risk patterns based on morning and evening measurements.  
-(Tansiyon verileri bir Excel dosyasından okunur, işlenir ve sabah–akşam ölçümlerine göre yüksek riskli desenleri belirlemek için **KMeans** ile kümelenir.)
+Makine öğrenmesinde gözetimsiz öğrenme tarafını görmek için yaptım.  
+Verileri excel dosyasından okuyup KMeans ile kümelendirdim.
 
----
-
-## 📌 Features (Özellikler)
-
-- Reads blood pressure data from an Excel file  
-  (Excel dosyasından tansiyon verilerini okur)
-- Splits systolic and diastolic values (e.g. `120/80`)  
-  (Sistolik ve diyastolik değerleri ayırır)
-- Uses **KMeans clustering** to group days into risk categories  
-  (Günleri risk kategorilerine ayırmak için **KMeans kümeleme** kullanır)
-- Automatically determines the risky cluster  
-  (Riskli kümeyi otomatik olarak belirler)
-- Labels each day as **Risky** or **Normal**  
-  (Her günü **Riskli** veya **Normal** olarak etiketler)
-- Exports the results to a new Excel file  
-  (Sonuçları yeni bir Excel dosyasına aktarır)
+Genel mantık:
+Veriyi oku -> değerleri ayır -> kümelendir -> risk durumunu belirle
 
 ---
 
-## 📂 Input Data Format (Girdi Veri Formatı)
+Kullandığım veri:
 
-The input Excel file (`tansiyon.xlsx`) should contain the following columns:  
-(Girdi Excel dosyası (`tansiyon.xlsx`) aşağıdaki sütunları içermelidir:)
+Yapay veri seti, Excel dosyasında sabah ve akşam tansiyon değerleri var.
 
-- `Date` (Tarih)
-- `Morning Blood Pressure` (Sabah Tansiyonu – örn. `120/80`)
-- `Evening Blood Pressure` (Akşam Tansiyonu – örn. `130/85`)
+Örnek:
+120/80, 130/85 gibi değerleri alıp sistolik ve diyastolik olarak ayırdım.
 
 ---
 
-## 🧠 Methodology (Yöntem)
+Projede yaptığım şeyler:
 
-1. Blood pressure values are parsed into systolic and diastolic components  
-   (Tansiyon değerleri sistolik ve diyastolik bileşenlerine ayrılır)
-2. Four features are used for clustering:  
-   (Kümeleme için dört özellik kullanılır:)
-   - Morning systolic (Sabah sistolik)
-   - Morning diastolic (Sabah diyastolik)
-   - Evening systolic (Akşam sistolik)
-   - Evening diastolic (Akşam diyastolik)
-3. KMeans is applied with **2 clusters**  
-   (KMeans **2 küme** olacak şekilde uygulanır)
-4. The cluster with the higher average systolic values is labeled as **Risky**  
-   (Ortalama sistolik değeri daha yüksek olan küme **Riskli** olarak etiketlenir)
-5. Results are merged back into the original dataset  
-   (Sonuçlar orijinal veri setine eklenir)
+Sabah ve akşam tansiyonlarını ayrı ayrı işledim
+
+Toplamda:
+sabah sistolik, sabah diyastolik / akşam sistolik, akşam diyastolik olacak şekilde 4 veri kullandım
+Daha sonra KMeans ile verileri 2 kümeye ayırdım
+
+Ortalama tansiyonu daha yüksek olan kümeyi: "Riskli"  
+diğerini ise: "Normal" olarak etiketledim
 
 ---
 
-## 📤 Output (Çıktı)
-
-- Daily risk classification printed to the console  
-  (Günlük risk durumu konsola yazdırılır)
-- A new Excel file (`tansiyon_sonuc.xlsx`) containing:  
-  (Aşağıdaki bilgileri içeren yeni bir Excel dosyası oluşturulur:)
-  - Original data (Orijinal veriler)
-  - Risk label for each day (Her gün için risk etiketi)
+Sonuç olarak:
+Her gün için risk durumu oluşturuluyor ve yeni bir excel dosyasına kaydediliyor. Konsolda da sonuçlar görünüyor
 
 ---
 
-## 🛠️ Technologies Used (Kullanılan Teknolojiler)
+Kullandığım teknolojiler:
 
-- Python (3.10.11)
-- Pandas
-- NumPy
-- Scikit-learn
+python 3.10, pandas, numpy, scikit-learn
 
 ---
-## 📌 Project Note (Proje Notu)
 
-This project was created as part of guided learning through online resources  
-and adapted to analyze personal blood pressure data using KMeans clustering  
-for educational purposes.
+Not:
+Bu proje tamamen öğrenme amaçlı yapıldı gerçek bir medikal analiz sistemi değil. Ayrıca KMeans mantığını daha iyi anlamak için geliştirdim
 
-(Bu proje, çevrim içi kaynaklar eşliğinde yapılan rehberli öğrenme sürecinin  
-bir parçası olarak geliştirilmiş ve kişisel tansiyon verileri üzerinde  
-KMeans kümeleme yöntemi uygulanacak şekilde uyarlanmıştır.)
-
-## ⚠️ Disclaimer (Uyarı)
-
-This project is for educational and experimental purposes only
-and should not be used for medical diagnosis.
-
-(Bu proje eğitim ve deneysel amaçlıdır
-ve tıbbi tanı amacıyla kullanılmamalıdır.)
 ---
-## ▶️ How to Run (Çalıştırma)
 
-```bash
+Çalıştırmak için:
+
 pip install -r requirements.txt
+
 python app.py

@@ -1,76 +1,47 @@
-# Zengin Chat – AI Destekli Kurumsal Chatbot
+# zengin chat
 
-Bu proje, yapay zekâ destekli bir kurumsal sohbet uygulamasıdır.  
-Flask web framework’ü ve Google Gemini API kullanılarak geliştirilmiştir.
+Bu projede flask kullanarak yapay zekâ destekli basit bir chatbot sistemi geliştirdim. Google Gemini API ile çalışıyor ve kullanıcıyla sohbet edebiliyor. Daha çok generative ai tarafını öğrenmek ve api entegrasyonu pratiği yapmak için yaptım.
 
-Projenin amacı, generative AI modellerinin gerçek bir iş senaryosunda  
-nasıl kullanılabileceğini öğrenmek ve uygulamaktır.
-
----
-
-## 🚀 Proje Özeti
-
-Zengin Chat, önceden tanımlanmış kurumsal bilgiler doğrultusunda
-kullanıcı sorularını yanıtlayan bir chatbot sistemidir.
-
-Sistem:
-- Belirlenen işletme kurallarının dışına çıkmaz
-- Kurumsal ve samimi bir dil kullanır
-- Kullanıcıyla müşteri gibi iletişim kurar
-
-Bu proje, öğrenme sürecinde geliştirilen bir **kişisel uygulama projesidir**.
+Genel mantık:
+Kullanıcı mesaj gönderir -> prompt işlenir -> gemini cevap üretir -> ekranda gösterilir
 
 ---
 
-## 🛠️ Kullanılan Teknolojiler
+Sistem şu şekilde çalışıyor:
 
-- Python
-- Flask
-- Google Gemini API
-- HTML / CSS
-- Jinja2 Template Engine
+Kullanıcının mesajı flask tarafında alınıyor. Daha sonra belirlediğim prompt yapısıyla birlikte Gemini API’ye gönderiliyor. Modelden gelen cevap tekrar kullanıcıya gösteriliyor  
+Chatbot’un tamamen serbest cevap vermemesi için bazı kurallar ve davranışlar tanımladım.
+
+Mesela: daha kurumsal konuşması, belirli konu dışına çıkmaması, müşteri gibi cevap vermesi gibi şeyler ekledim.
 
 ---
 
-## ⚙️ Kurulum
+Projede yaptığım şeyler:
 
-1. Projeyi klonlayın:
-```
-git clone https://github.com/kullanici-adi/zengin-chat.git
-cd zengin-chat
-```
-2. Gerekli kütüphaneyi yükleyin:
-```
+flask ile backend tarafını kurdum, gemini api entegrasyonu yaptım, basit arayüz hazırladım, prompt yapısını düzenledim, kullanıcı mesajlarını işledim.
+
+---
+
+Kullandığım teknolojiler:
+
+python 3.10, flask, google gemini api, html / css, jinja2
+
+---
+
+Not:
+
+Bu proje tamamen öğrenme amaçlı geliştirildi. Özellikle generative ai ve prompt mantığını anlamak için yaptım. Gerçek bir kurumsal sistem değil.
+
+---
+
+Çalıştırmak için:
+
 pip install google-generativeai flask
-```
-3. API anahtarını ortam değişkeni olarak tanımlayın:
 
-Windows (PowerShell):
-setx GEMINI_API_KEY="API_KEY_BURAYA"
-
-Mac / Linux:
-export GEMINI_API_KEY="API_KEY_BURAYA"
-
-4. Uygulamayı çalıştırın:
-```
 python app.py
-```
-5. Tarayıcıdan açın:
 
-http://127.0.0.1:5000
+---
 
-📸 Ekran Görüntüsü
-"screenshots\chat.png" adlı dosyada örnek bir ekran görüntüsü bulunmaktadır.
+Ekran görüntüsü:
 
-🎯 Amaç ve Öğrenilenler
-
-Bu proje ile:
- - Generative AI API entegrasyonu
- - Prompt tasarımı
- - Flask ile basit web uygulaması geliştirme
- - Kurumsal senaryo kurgulama
- - konularında pratik yapılmıştır.
-
-📌 Not
-Bu proje bir öğrenme çalışmasıdır ve eğitim sürecinde edinilen
-bilgilerin pekiştirilmesi amacıyla geliştirilmiştir.
+screenshots/chat.png

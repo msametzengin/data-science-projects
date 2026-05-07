@@ -1,65 +1,58 @@
-## 📊 Data Science Projects
+## Veri bilimi ve ai projeleri
 
-This repository contains data science and AI projects focusing on healthcare analytics, computer vision, automation, and geospatial data analysis.
-
----
-
-### 🌍 Turkey Earthquake Analysis & Visualization
-**Real-time earthquake data analysis and geospatial visualization**
-
-- Real-time earthquake data from USGS API  
-- Time-series trend analysis & statistical insights  
-- Interactive maps & heatmaps  
-
-**Features**
-- Magnitude distribution  
-- Depth analysis  
-- Monthly trends  
-- Most active cities  
-- Interactive map & heatmap  
+Burada veri analizi, makine öğrenmesi, görüntü işleme ve otomasyon tarafında yaptığım bazı projeler bulunuyor.  
+Projelerin çoğu öğrenme ve pratik amaçlı geliştirildi. Farklı kütüphaneler ve yapılar denemeye çalıştım.
 
 ---
 
-### ❤️ Heart Attack Risk Prediction
-**Machine learning-based heart disease risk analysis**
+# Türkiye deprem analizi
 
-- Predicts heart disease risk using classification algorithms  
-- Dataset: Heart Failure Prediction Dataset (Kaggle)  
-- https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction  
+USGS API üzerinden son 1 yılın deprem verilerini çekip analiz ettiğim proje.
 
-**Technologies:** Python, Pandas, Scikit-learn, Matplotlib  
+Projede:
+- deprem verilerini çektim
+- grafikler oluşturdum
+- aylık değişimleri inceledim
+- harita ve heatmap oluşturdum
 
----
-
-### 🩺 Blood Pressure Risk Analysis (K-Means Clustering)
-**Unsupervised learning approach for blood pressure risk grouping**
-
-- Identifies risk groups using clustering techniques  
-- Dataset: Personal blood pressure records (Excel)
-
-**Technologies:** Python, Pandas, Scikit-learn  
+Kullandığım şeyler:
+python 3.10, pandas, matplotlib, seaborn, folium
 
 ---
 
-### 🤖 AI-Powered Business Chatbot
-**Corporate information chatbot powered by AI**
+## Kalp krizi risk tahmini
 
-- AI chatbot built with Flask and Google Gemini API  
-- Rule-based corporate Q&A system  
+Makine öğrenmesi kullanarak kalp krizi riski tahmini yaptığım proje. ANN modeli kullandım ve birkaç farklı model ile karşılaştırdım.
 
-**Technologies:** Python, Flask, Google Gemini API  
+Veri seti:
+https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction
+
+Kullandığım teknolojiler:
+python 3.10, pandas, scikit-learn, tensorflow
+
+---
+
+## Tansiyon risk analizi
+
+Excel üzerinden alınan tansiyon verilerini analiz edip riskli / normal şeklinde ayırmaya çalıştım. Burada KMeans kullanarak kümelendirme yaptım.
+
+Kullandığım şeyler:
+python 3.10, pandas, scikit-learn
 
 ---
 
-### 🎥 Motion Detection WhatsApp Alert System
-**Real-time motion detection and instant messaging alerts**
+## Ai destekli chatbot
 
-- Webcam-based motion detection  
-- Sends automatic WhatsApp notifications when motion is detected  
+Flask ve Google Gemini API kullanarak geliştirdiğim basit chatbot projesi. Kullanıcı mesajlarını işleyip yapay zekâ üzerinden cevap üretiyor.
 
-**Technologies:** Python, OpenCV, PyAutoGUI  
+Kullandığım şeyler:
+python 3.10, flask, gemini api
 
 ---
-**Dataset:** USGS Earthquake API (GeoJSON, last 1 year, min magnitude 2.0)  
 
-**Technologies:** Python, Requests, Pandas, Matplotlib, Seaborn, Folium  
+## Hareket algılama ve whatsapp bildirim sistemi
+
+Webcam üzerinden hareket algılayan ve otomatik WhatsApp mesajı gönderen proje. OpenCV ile hareket algılama tarafını yaptım.
+
+Kullandığım şeyler:
+python 3.10, opencv, pyautogui

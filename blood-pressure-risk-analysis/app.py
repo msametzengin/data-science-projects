@@ -10,7 +10,7 @@ def bloodPressureRelief(bloodPressure):
         return np.nan,np.nan
 
 def main():
-    # get excel data
+    # exceldeki datayı okuma işlemi
     data = pd.read_excel('tansiyon.xlsx')
 
     data[['morning_systolic','morning_diastolic']] = data['Morning Blood Pressure'].apply(lambda x: pd.Series(bloodPressureRelief(x)))
@@ -19,14 +19,14 @@ def main():
     features = data[['morning_systolic','morning_diastolic','evening_systolic','evening_diastolic']].dropna()
     kmeans = KMeans(n_clusters=2,random_state=42)
     clusters = kmeans.fit_predict(features)
-    features['cluster'] = clusters # We are adding the data we trained with.
+    features['cluster'] = clusters # eğitimde kullandığımız verileri ekleme işlemi
 
     clustersAverage = features.groupby('cluster').mean()[['morning_systolic','evening_systolic']]
     riskyCluster = clustersAverage.mean(axis=1).idxmax()
 
     features['risky'] = features['cluster'].apply(lambda x:'Risky' if x == riskyCluster else 'Normal')
 
-    # Embed the data into the original data.
+    # verileri orijinal verilerin içine yerleştirme işlemi
     data = data.join(features['risky'])
     numberofRisky = data['risky'].value_counts().get('Risky',0)
     total = data['risky'].count()

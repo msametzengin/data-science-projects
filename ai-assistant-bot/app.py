@@ -2,7 +2,7 @@ from flask import Flask, render_template, request
 import os
 import contextlib
 
-# Google Gemini loglarını gizlemek için
+# Google Gemini loglarını gizleme
 with open(os.devnull, 'w') as devnull, contextlib.redirect_stderr(devnull):
     import google.generativeai as genai
 
@@ -12,18 +12,18 @@ app = Flask(__name__)
 
 # API KEY (Environment Variable üzerinden)
 # Windows için:
-# setx GEMINI_API_KEY "API_KEY_BURAYA"
+# setx GEMINI_API_KEY "API_KEY"
 # Mac/Linux:
-# export GEMINI_API_KEY="API_KEY_BURAYA"
+# export GEMINI_API_KEY="API_KEY"
 
 API_KEY = os.getenv("GEMINI_API_KEY")
 
 if not API_KEY:
-    raise ValueError("GEMINI_API_KEY ortam değişkeni bulunamadı!")
+    raise ValueError("GEMINI_API_KEY ortam değişkeni bulunamadı")
 
 genai.configure(api_key=API_KEY)
 
-# Model ayarları
+# Model config ayarları
 generation_config = {
     "temperature": 1,
     "top_p": 0.95,

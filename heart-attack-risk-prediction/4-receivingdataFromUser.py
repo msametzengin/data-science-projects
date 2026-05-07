@@ -10,7 +10,7 @@ from tensorflow.keras.optimizers import Adam  # type: ignore
 
 df = pd.read_csv('heart.csv')
 
-# Let's convert categorical data into numerical values.
+# kategorik veriyi numericlendirme
 from sklearn.preprocessing import LabelEncoder
 label_encoder = LabelEncoder()
 label_encoder_sex = LabelEncoder()
@@ -21,38 +21,38 @@ df['RestingECG'] = label_encoder.fit_transform(df['RestingECG'])
 df['ExerciseAngina'] = label_encoder.fit_transform(df['ExerciseAngina'])
 df['ST_Slope'] = label_encoder.fit_transform(df['ST_Slope'])
 
-# Define the input and output.
+# giriş çıkışı tanımlama
 X = df.drop('HeartDisease' , axis=1)
 y = df['HeartDisease']
 
-# Let's separate the data into training and testing categories.
+# veriyi test ve öğrenme verisi diye ayır
 X_train, X_test , y_train, y_test = train_test_split(X,y, test_size=0.3 , random_state=42)
 
-# Correct data imbalance
+# verid engesizliğini bulma
 smote = SMOTE(random_state=42)
 X_train_smote , y_train_smote = smote.fit_resample(X_train, y_train)
 
-# Scale the data
+# veriy ölçeklendirme
 scaler = StandardScaler()
 X_train_scaled = scaler.fit_transform(X_train_smote)
 X_test_scaled = scaler.transform(X_test)
 
 # ------------- MODELS -------------
 
-#1. Artificial neural networks (ANN)
+# ANN
 print('Model 1: Artificial Neural Networks')
 model = Sequential()
 model.add(Dense(16, input_dim=X_train_scaled.shape[1] ,activation = 'relu'))
 model.add(Dense(1, activation='sigmoid'))
 
-# Let's compile and train the model.
+# modeli eğitme ve derleme işlemi
 optimizer = Adam(learning_rate=0.001)
 model.compile(loss='binary_crossentropy' , optimizer = optimizer , metrics=['accuracy'])
 
 model.fit(X_train_scaled, y_train_smote, epochs=100 , verbose=1 , validation_data=(X_test_scaled, y_test) )
 loss, accuracy = model.evaluate(X_test_scaled, y_test)
 
-# Receiving data from the user and training the model.
+# kullanıcıdan eğitim verisi alma
 
 while True:
     user_input_1 = float(input('Enter your age: '))
@@ -62,7 +62,7 @@ while True:
     user_input_5 = float(input('Enter your cholesterol level: '))
 
     try:
-        # Let's convert user data into numerical data.
+        # veriyi numericlendirme
         user_data = pd.DataFrame({
             'Age':[user_input_1],
             'Sex':[label_encoder_sex.transform([user_input_2])[0]],
@@ -70,7 +70,7 @@ while True:
             'RestingBP':[user_input_4],
             'Cholesterol':[user_input_5],
 
-            # The following values ​​are the 6 values ​​remaining from the 11 data points, which were not received from the user.
+            # alttaki değerler kullanıcıdan alınmayan değerlerdir üstteki değerler ise kullanıcıdan alınan değerler
             'FastingBS':[0],
             'RestingECG':[0],
             'MaxHR':[150],
@@ -80,16 +80,16 @@ while True:
         })
 
 
-        # Scaling the acquired data.
+        # elde edilen veriyi ölçeklendirme
         user_data_scaled=scaler.transform(user_data)
         
-        # Make a prediction
+        # tahmin yapma işlemi
         prediction=model.predict(user_data_scaled)
         print(f'Your estimated risk of heart disease is: {prediction[0][0]:.4f}')
+
     except ValueError as e:
         print(f'An error occurred: {e}. Please check the information!')
     
-    # Ask the user a question for a new prediction.
     againPred = input('Would you like to make another prediction? (Y/N)')
     if againPred.lower() != 'e':
         break
