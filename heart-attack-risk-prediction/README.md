@@ -14,36 +14,20 @@ https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction
 
 Projede yaptığım şeyler:
 
-Veriyi temizledim ve düzenledim  
-Kategorik verileri sayısal hale çevirdim  
-Veriyi train/test olarak ayırdım  
-Veri dengesiz olduğu için SMOTE kullandım çünkü model tek tarafa fazla kayıyordu. Daha sonra verileri scale edip modeli eğittim
-
-Ana model olarak basit bir ANN kullandım  
-Ek olarak:  
-Random Forest  
-Decision Tree  
-Logistic Regression  
-modelleriyle de karşılaştırdım
+Veriyi temizledim ve düzenledim. Kategorik verileri sayısal hale çevirdim. Veriyi train/test verisi olarak ayırdım. Veri dengesiz olduğu için SMOTE kullandım çünkü model tek tarafa fazla kayıyordu. Daha sonra verileri scale edip modeli eğittim. Ana model olarak basit bir ANN kullandım. Ve diğer modellerle (Random forest, Decision tree, Logistic regression) karşılaştırdım.
 
 ---
 
-Kullanıcı terminal üzerinden kendi verisini girip tahmin alabiliyor.
-
-Mesela:
-yaş, tansiyon, kolesterol gibi bilgiler giriliyor. Model de risk tahmini yapıyor
+Kullanıcı terminal üzerinden kendi verisini girip tahmin alabiliyor. Örneğin: yaş, tansiyon, kolesterol gibi bilgiler giriliyor. Model de risk tahmini yapıyor
 
 ---
 
-Kullandığım teknolojiler:
-
-python 3.10, pandas, numpy, scikit-learn, tensorflow / keras, matplotlib, smote
+Kullandığım teknolojiler:  
+Python 3.10, pandas, numpy, scikit-learn, tensorflow / keras, matplotlib, smote
 
 ---
 
-Not:
-
-Bu proje tamamen öğrenme amaçlı gerçek tıbbi kullanım için uygun değil. Ayrıca proje bir machine learning kursundan ilerleyerek geliştirildi. Ama kodları düzenleyip anlamaya çalıştım
+Not: Bu proje tamamen öğrenme amaçlı gerçek tıbbi kullanım için uygun değil. Ayrıca proje bir machine learning kursundan ilerleyerek geliştirildi. Ama kodları düzenleyip anlamaya çalıştım
 
 ---
 
