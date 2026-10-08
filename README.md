@@ -45,7 +45,7 @@ python 3.10, flask, gemini api
 
 ---
 
-# Hareket algılama ve whatsapp bildirim sistemi
+## Hareket algılama ve whatsapp bildirim sistemi
 
 Webcam üzerinden hareket algılayan ve otomatik WhatsApp mesajı gönderen proje. OpenCV ile hareket algılama tarafını yaptım.
 
